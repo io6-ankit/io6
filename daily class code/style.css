@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+.nev-container {
+  width: 100%;
+  hight: 50px;
+  border: 1px solid black;
+}
+.title-container {
+}
+.search-container {
+}
+.action-container {
+}
