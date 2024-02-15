@@ -7,13 +7,18 @@
       .parent {
         /* background-color: red; */
       }
-      .child {
+      .img-parent {
         border: 1px solid black;
         margin-top: 2px;
         width: 1000px;
         height: 500px;
-        display: inline-block;
+        display: flex;
         justify-content: center;
+      }
+      .img {
+        width: 200px;
+        height: 200px;
+        margin: 300px auto;
       }
       .child-1 {
         background-image: linear-gradient(to bottom, teal, pink, black);
@@ -21,8 +26,8 @@
     </style>
   </head>
   <body>
-    <div class="child child-1">
-      <img src="./images.png" width="200px" />
+    <div class="img-parent child-1">
+      <img class="img" src="./images.png" />
     </div>
   </body>
 </html>

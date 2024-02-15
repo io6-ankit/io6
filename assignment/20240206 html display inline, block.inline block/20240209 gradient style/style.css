@@ -1,0 +1,9 @@
+.parent {
+  border: 1px solid black;
+  margin-top: 2px;
+  width: 1000px;
+  height: 500px;
+  display: inline-block;
+  justify-content: center;
+  background-color: rgb(196, 179, 179);
+}
