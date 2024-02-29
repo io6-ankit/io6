@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  width: 40%;
+  height: 656px;
+  background-color: aqua;
+  /* display: flex; */
+  justify-content: center;
+  margin: auto;
+  margin-top: 35px;
+}
+.company {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(145, 13, 13);
+  display: flex;
+  justify-content: center;
+}
+h2.title {
+  margin-top: 5%;
+}
+
+.company-2 {
+  width: 100%;
+  background-color: rgb(47, 126, 29);
+  margin: auto;
+  /* display: flex; */
+  /* height: 50px; */
+}
+h3.title-2 {
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: rgb(13, 145, 90);
+  margin: auto; */
+}
+.title-3 {
+  display: flex;
+  /* justify-content: center; */
+  width: 49%;
+  margin: auto;
+}

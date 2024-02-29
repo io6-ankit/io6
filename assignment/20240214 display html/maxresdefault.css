@@ -9,7 +9,7 @@ body {
   width: 34px;
   height: 1px;
 }
-.titale {
+.title {
 }
 .heading-1 {
   margin-top: 200px;
@@ -31,7 +31,7 @@ body {
 
   display: flex;
 }
-.titale-container {
+.title-container {
   flex-grow: 1;
   height: 50px;
 
@@ -78,7 +78,7 @@ body {
   margin: 23px 23px;
   display: flex;
 }
-.titale-2 {
+.title-2 {
   display: flex;
   align-items: center;
 }
@@ -95,7 +95,7 @@ body {
   display: flex;
   margin-top: 250px;
 }
-.titale-3 {
+.title-3 {
   margin-right: 230px;
 }
 .child-1 {
@@ -105,13 +105,13 @@ body {
   width: 500px;
   height: 40px;
 }
-/* .titale-4 {
+/* .title-4 {
   margin-right: 10px;
 }
 .child-2 {
   margin-left: 28px;
 } */
-.titale-container-1 {
+.title-container-1 {
   flex-grow: 1;
   height: 50px;
   margin-left: 2px;

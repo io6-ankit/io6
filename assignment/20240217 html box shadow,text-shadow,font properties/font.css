@@ -6,29 +6,213 @@
   background-color: brown;
 } */
 .nav-container {
-  width: 1500px;
+  width: 100%;
+  height: 35px;
+  border: 1px solid black;
+  display: flex;
+}
+.search-container {
+  flex-grow: 1;
+  width: 10px;
+  height: 35px;
+  border: 1px solid black;
+  display: flex;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 40px;
+}
+.search {
+  margin-left: 15px;
+}
+.type-container {
+  flex-grow: 1;
+
+  height: 35px;
+  border: 1px solid black;
+}
+.title-container {
+  flex-grow: 1;
+
+  height: 35px;
+  border: 1px solid black;
+}
+.icon-container {
+  flex-grow: 1;
+
   height: 35px;
   border: 1px solid black;
 }
 .parent {
-  border: 2px solid black;
-  margin-top: 0px;
-  width: 1480px;
-  height: 1200px;
+  /* border: 2px solid black; */
+  margin-top: 2%;
+  /* width: 1480px; */
+  height: 100%;
   display: flex;
   justify-content: center;
 }
 .child {
-  margin: 20px 10px;
+  margin: 23px 10px;
+  border: 2px solid black;
+  width: 1500px;
+  height: 300px;
+  display: inline-block;
+  background-color: wheat;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+.child-B {
+  margin: 23px 10px;
+  border: 2px solid black;
+  width: 1500px;
+  height: 300px;
+  /* display: inline-block; */
+  /* background-color: rgb(196, 20, 20); */
+  border-radius: 5%;
+  background-image: url("image.jpeg");
+  background-repeat: no-repeat;
+  background-size: 300px 303px;
+}
+.child-C {
+  margin: 23px 10px;
+  border: 2px solid black;
+  width: 1500px;
+  height: 300px;
+  /* display: inline-block; */
+  /* background-color: rgb(196, 20, 20); */
+  border-radius: 5%;
+  background-image: url("pngtree-double.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 303px;
+}
+.child-D {
+  margin: 23px 10px;
+  border: 2px solid black;
+  width: 1500px;
+  height: 300px;
+  /* display: inline-block; */
+  /* background-color: rgb(196, 20, 20); */
+  border-radius: 5%;
+  background-image: url("IMAGE-1.avif");
+  background-repeat: no-repeat;
+  background-size: 300px 303px;
+}
+.child-G {
+  margin: 23px 10px;
+  border: 2px solid black;
+  width: 1500px;
+  height: 300px;
+  /* display: inline-block; */
+  /* background-color: rgb(196, 20, 20); */
+  border-radius: 5%;
+  background-image: url("image-2.jfif");
+  background-repeat: no-repeat;
+  background-size: 300px 303px;
+}
+.child-E {
+  margin: 23px 10px;
+  border: 2px solid black;
+  width: 1500px;
+  height: 300px;
+  /* display: inline-block; */
+  /* background-color: rgb(196, 20, 20); */
+  border-radius: 5%;
+  background-image: url("book image");
+  background-repeat: no-repeat;
+  background-size: 300px 303px;
+}
+.child-F {
+  margin: 23px 10px;
+  border: 2px solid black;
+  width: 1500px;
+  height: 300px;
+  /* display: inline-block; */
+  /* background-color: rgb(196, 20, 20); */
+  border-radius: 5%;
+  background-image: url("image-3.jfif");
+  background-repeat: no-repeat;
+  background-size: 300px 303px;
+}
+
+.word-2 {
+  margin-top: 40px;
+  color: white;
+  margin-left: 40px;
+}
+.word-1 {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+}
+.parent-1 {
+  /* border: 2px solid black; */
+  margin-top: 0%;
+  /* width: 1480px; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.child-A {
+  margin: 23px 10px;
   border: 2px solid black;
   width: 1500px;
   height: 300px;
   display: inline-block;
   background-color: wheat;
 }
-.child-1 {
-  margin-top: 23px;
+.word-6 {
+  margin-top: 40px;
 }
-.word-1 {
-  
+.word-7 {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.child-2 {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: beige;
+}
+.child-3 {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.child-4 {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.child-5 {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+}
+.word-6 {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: rgb(59, 15, 180);
+}
+.word-7 {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+}
+.child-7 {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: black;
+}
+.child-8 {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.child-9 {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.child-10 {
+  margin-top: 30px;
+  margin-left: 40px;
 }
