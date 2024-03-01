@@ -5,7 +5,7 @@
 }
 .parent {
   width: 40%;
-  height: 656px;
+  height: 554px;
   background-color: rgba(248, 242, 242, 0.819);
   /* display: flex; */
   justify-content: center;
@@ -22,6 +22,7 @@
 }
 h2.title {
   margin-top: 5%;
+  color: burlywood;
 }
 
 .company-2 {
@@ -32,18 +33,107 @@ h2.title {
   /* display: flex; */
   /* height: 50px; */
 }
-h3.title-2 {
+.title-2 {
   /* margin-top: 10px; */
   display: flex;
   justify-content: center;
   width: 100%;
   align-items: center;
+  /* margin-top: 20px; */
   /* background-color: rgb(13, 145, 90);
   margin: auto; */
 }
 s.title-3 {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   width: 49%;
-  margin: auto;
+  /* margin: auto; */
+  align-items: center;
+}
+.title-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 69px; */
+}
+.top {
+  margin-top: 20px;
+}
+.parent-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  margin-right: 29%;
+}
+.parent-3 {
+  /* display: flex; */
+  /* margin-left: 10%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c {
+  margin-right: 20px;
+}
+.search-2 {
+  margin-left: 15%;
+  display: flex;
+  height: 30px;
+  width: 38%;
+  margin-right: 20px;
+}
+.search-1 {
+  height: 30px;
+  width: 38%;
+  margin-left: 92px;
+}
+.e {
+  margin-left: 81px;
+  margin-top: 20px;
+}
+.search-3 {
+  margin-left: 83px;
+  height: 33px;
+  width: 79%;
+}
+.f {
+  margin-left: 81px;
+  margin-top: 20px;
+}
+.search-4 {
+  margin-left: 83px;
+  height: 33px;
+  width: 79%;
+}
+.g {
+  margin-left: 79px;
+  margin-top: 20px;
+}
+.button {
+  background-color: brown;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  margin-left: 50px;
+}
+.parent-4 {
+  display: flex;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.parent-5 {
+  display: flex;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.button-2 {
+  width: 70%;
+  height: 50px;
+  background-color: burlywood;
 }
