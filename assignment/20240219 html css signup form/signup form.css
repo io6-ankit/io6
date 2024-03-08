@@ -1,0 +1,155 @@
+body {
+  background-color: rgba(10, 11, 11, 0.882);
+}
+.a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  color: white;
+}
+.A {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.parent {
+  height: 600px;
+  /* background-color: aquamarine; */
+  /* border: 2px solid black; */
+  width: 30%;
+  background-image: url("car background image.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+.size {
+  margin-top: 95%;
+}
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(201, 17, 17);
+}
+.c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 45px;
+  color: rgb(28, 7, 7);
+}
+.parent-1 {
+  height: 600px;
+  background-color: aquamarine;
+  /* border: 2px solid black; */
+  width: 30%;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 108px;
+}
+/* .input {
+  margin-right: 20px;
+} */
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 80px; */
+  margin-left: 80px;
+}
+.first-1 {
+  /* margin-left: 10px; */
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 12%; */
+  margin-left: 73px;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 90px; */
+  margin-left: 80px;
+}
+.password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 90px; */
+  margin-left: 80px;
+}
+.website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 100px; */
+  margin-left: 79px;
+}
+.press {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.press-1 {
+  height: 10px;
+  width: 10px;
+  background-color: brown;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-right: 20px;
+}
+.press-2 {
+  height: 40px;
+  width: 200px;
+  margin-left: 50px;
+  border-radius: 20px;
+  background-color: rgb(210, 139, 139);
+}
+.color {
+  color: white;
+}
+.line-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: black; */
+}
+.line {
+  width: 200px;
+  /* color: black; */
+}
+.line-1 {
+  width: 200px;
+  /* color: black; */
+}
+.paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 40px;
+  width: 40px;
+}
+.word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.word-1 {
+  color: blue;
+}
