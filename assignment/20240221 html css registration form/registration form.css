@@ -1,0 +1,128 @@
+body {
+  background-color: white;
+}
+.form-1 {
+  margin-top: 5%;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+}
+.box {
+  height: 900px;
+  width: 53%;
+  background-color: rgb(45, 45, 182);
+}
+.title {
+  width: 2px;
+}
+#fname {
+  margin-left: 15%;
+}
+.fname {
+  margin-left: 5%;
+  color: white;
+}
+#lname {
+  margin-left: 15%;
+}
+.lname {
+  margin-left: 5%;
+  color: white;
+}
+#dob {
+  margin-left: 12.5%;
+}
+.dob {
+  margin-left: 5%;
+  color: white;
+}
+#Email {
+  margin-left: 16%;
+}
+.email {
+  margin-left: 5%;
+  color: white;
+}
+#number {
+  margin-left: 10.5%;
+}
+.number {
+  margin-left: 5%;
+  color: white;
+}
+#gender {
+  margin-left: 18%;
+}
+.gender {
+  margin-left: 5%;
+  color: white;
+}
+#address {
+  margin-left: 16.5%;
+}
+.address {
+  margin-left: 5%;
+  color: white;
+}
+#city {
+  margin-left: 20%;
+}
+.city {
+  margin-left: 5%;
+  color: white;
+}
+#Pcode {
+  margin-left: 16%;
+}
+.pcode {
+  margin-left: 5%;
+  color: white;
+}
+#state {
+  margin-left: 19.5%;
+}
+.state {
+  margin-left: 5%;
+  color: white;
+}
+#country {
+  margin-left: 17%;
+}
+.country {
+  margin-left: 5%;
+  color: white;
+}
+#HObbies {
+  margin-left: 10%;
+}
+.hobbies {
+  margin-left: 5%;
+  color: white;
+}
+#course {
+  margin-left: 10%;
+}
+.course-1 {
+  margin-left: 5%;
+  color: white;
+}
+.table-1 {
+  margin-left: 5%;
+  color: white;
+}
+.button {
+  margin-left: 50%;
+  color: white;
+}
+.color {
+  color: white;
+}

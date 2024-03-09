@@ -3,11 +3,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.all child {
+/* .all child {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .parent {
   width: 40%;
   height: 554px;
