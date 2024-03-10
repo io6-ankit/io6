@@ -62,7 +62,7 @@ s.title-3 {
   /* margin-left: 69px; */
 }
 .top {
-  margin-top: 20px;
+  margin-top: -2%;
 }
 .parent-2 {
   display: flex;
@@ -72,12 +72,15 @@ s.title-3 {
 /* a {
   /* margin-right: 1%; */
 .child {
-  margin-right: 60px;
+  margin-right: 90px;
+}
+.child-1 {
+  margin-left: 20px;
 }
 
 .parent-3 {
   /* display: flex; */
-  /* margin-left: 10%; */
+  /* margin-left: 10%; */ss
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +107,7 @@ s.title-3 {
 .search-3 {
   margin-left: 83px;
   height: 33px;
-  width: 79%;
+  width: 73%;
 }
 .f {
   margin-left: 81px;
@@ -113,7 +116,7 @@ s.title-3 {
 .search-4 {
   margin-left: 83px;
   height: 33px;
-  width: 79%;
+  width: 73%;
 }
 .g {
   margin-left: 79px;
@@ -124,7 +127,7 @@ s.title-3 {
   height: 15px;
   width: 15px;
   display: flex;
-  margin-left: 50px;
+  margin-left: 12px;
 }
 .parent-4 {
   display: flex;
@@ -141,7 +144,16 @@ s.title-3 {
   margin-top: 20px;
 }
 .button-2 {
-  width: 70%;
+  width: 50%;
   height: 50px;
   background-color: burlywood;
+}
+.paragraph{
+  margin-left: 10px;
+}
+.input{
+  height: 32px;
+}
+.last-name{
+  height: 32px;
 }
