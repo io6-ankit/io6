@@ -1,0 +1,118 @@
+.body {
+  border: 20px solid rgb(238, 233, 233);
+  /* background-color: blanchedalmond; */
+  height: 1450px;
+  width: 60%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: auto;
+}
+.content {
+  display: flex;
+}
+.first {
+  height: 180px;
+  width: 100%;
+  border: 1px solid rgb(218, 148, 148);
+  /* display: flex; */
+}
+.image {
+  height: 150px;
+  width: 90px;
+  float: left;
+  margin-top: 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -18px;
+}
+.government {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -12px;
+}
+.margin {
+  margin-top: -19px;
+}
+.service {
+  width: auto;
+  /* border: 1px solid black; */
+  background-color: rgb(153, 151, 151);
+}
+#apply {
+  margin-left: 115px;
+  width: 273px;
+}
+#application {
+  margin-left: 100px;
+}
+#booklet {
+  margin-left: 65px;
+}
+#name {
+  width: 99%;
+}
+.status-1 {
+  margin-left: 48px;
+}
+#mark {
+  width: 78.5%;
+}
+#middle-Name {
+  width: 99%;
+}
+#surname {
+  width: 99%;
+}
+#legal {
+  width: 99%;
+}
+#gender {
+  width: 30%;
+  margin-left: 70px;
+}
+#other-name {
+  margin-left: 50px;
+}
+#change-name {
+  margin-left: 90px;
+}
+#dob {
+  margin-left: 80px;
+}
+.second {
+  border: 1px solid black;
+}
+.end {
+  margin-left: 45%;
+}
+.Details {
+  background-color: rgb(153, 151, 151);
+}
+.body-1 {
+  border: 20px solid rgb(238, 233, 233);
+  /* background-color: blanchedalmond; */
+  height: 1200px;
+  width: 60%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: auto;
+  margin-top: 5px;
+}
+#mother-Name {
+  width: 99%;
+}
+.address {
+  background-color: rgb(153, 151, 151);
+}
+.input {
+  margin-left: 15%;
+}
+.input-1 {
+  margin-left: 5%;
+}

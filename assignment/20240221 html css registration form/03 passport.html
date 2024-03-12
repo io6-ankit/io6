@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>passport</title>
+    <link rel="stylesheet" href="03 passport.css" />
+  </head>
+  <body>
+    <div class="body">
+    <div class="first">
+      <img class="image" src="./9956476.png" />
+      <h2 class="form">PASSPORT APPLICATION FORM</h2>
+      <h2 class="government">
+        Government of India,Ministry of External Affairs
+      </h2>
+      <h4>
+        Please read the passport instruction Booklet carefully before felling
+        the form.Furnishing of incorrect information /suppression of information
+        would lead to rejection of application and would attract penal provision
+        as prescribed under the passports Act,1967.Please produce your original
+        documents at the time of submission of the form.All fields marked
+        with(*) are mandatory to fill.
+      </h4>
+    </div>
+    <div class="margin">
+      <div class="service"><h3>Service Required</h3></div>
+      <!-- <br /> -->
+      <form>
+        <label for="apply">Applying for *</label>
+        <select id="apply" name="apply">
+          <option value="0">Select</option>
+          <option>Fresh Passport</option>
+          <option class="Re-issue of Passport">
+            Re-issue of passport
+          </option></select
+        ><br /><br />
+        <label for="application">Type of Application *</label>
+        <input type="radio" id="application" name="application" />
+        <label>Normal</label>
+        <input type="radio" id="radio" name="application" />
+        <label>Tatkaal</label><br /><br />
+        <label for="booklet">Type of Passport Booklet *</label>
+        <input type="radio" id="booklet" name="booklet" />
+        <label>36 Pages</label>
+        <input type="radio" id="passport" name="booklet" />
+        <label>60 Pages</label>
+      </form>
+      <br />
+      <div class="service"><h3>Applicant Details</h3></div>
+      <form>
+        <label for="name">
+          Applicants Given Name(Given Name means First Name followed by middle
+          Name(if any))* </label
+        ><br />
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="surname"> Surname</label><br />
+        <input type="text" id="surname" name="surname" /><br />
+        <br />
+        <label for="gender"> Gender* </label>
+        <select id="gender" name="gender">
+          <option class="Male">Male</option>
+          <option class="Female">Female</option>
+          <option class="Transgendere">Transgender</option></select
+        ><br />
+        <br />
+        <label for="other-name"
+          >Are you known any other names(aliases) ?*</label
+        >
+        <input type="radio" id="other-name" name="other-name" />
+        <label>Yes</label>
+        <input type="radio" id="other-name-2" name="other-name" />
+        <label>No</label><br /><br />
+        <label for="application">Have you ever changed your name? *</label>
+        <input type="radio" id="change-name" name="change-name" />
+        <label>Yes</label>
+        <input type="radio" id="change-name-2" name="change-name" />
+        <label>No</label><br /><br />
+        <label for="DOB"> Date of Birth(DD/MM/YYYY)* </label>
+
+        <input type="text" id="dob" name="DOB" />
+      </form>
+      <div class="service"><h3>Please of Birth</h3></div>
+      <form>
+        <label for="other-name"> Is your Place of Birth out of India? *</label>
+        <input type="radio" id="other-name" name="other-name" />
+        <label>Yes</label>
+        <input type="radio" id="other-name-2" name="other-name" />
+        <label>No</label><br /><br/>
+        <label for="City"> Village or Town or City * </label>
+
+        <input type="text" id="City" name="City" /> <br /><br/>
+        <label  for="status"> Marital Status * </label>
+        <select id="status" name="status">
+          <option class="single">single</option>
+          <option class="married">Married</option>
+          <option class="divorced">Divorced</option>
+          <option class="widow">Widow/ Widower</option>
+          <option class="separated">Separated</option>
+        </select>
+        <label class="status-1" for="Citizenship"> Citizenship of India by * </label>
+        <select id="Citizenship" name="Citizenship">
+          <option class="birth">Birth</option>
+          <option class="descent">Descent</option>
+          <option class="registration">registration/Naturalization</option>
+        </select>
+        <br /><br/>
+        <label for="pan">PAN(If Available)</label>
+        <input type="text" id="pan" name="pan" />
+        <label for="voter id"> <label for="pan">Voter Id(If Available)</label>
+        <input type="text" id="voter-id" name="voter-id" /><br/><br/>
+        <label for="employment" > Employment Type *</label>
+        <select id="employment" name="employment">
+          <option class="">Government</option>
+          <option class="">Homemaker</option>
+          <option class="">Not Employed</option>
+          <option class="">Other</option>
+          <option class="">Owners, Partners & Directors of companies which are members of CII, FICCI & ASSOCHAM </option>
+        </select><br/><br/>
+        <label for="minor"> Is either of your parent (in case of minor)/ spouse, a government servant? *</label>
+        <select id="minor" name="minor">
+          <option>select</option>
+          <option >Yes</option>
+          <option >No</option>
+        </select><br/><br/>
+        <label for="education">Educational Qualification*</label>
+        <select id="education" name="educational qualification">
+          <option>select</option>
+          <option>7th pass or less</option>
+          <option>Between 8th and 9th standard</option> 
+          <option>10th pass and above</option>
+          <option>Graduate and above</option>
+        </select>
+        <label for="ECR">Are you eligible for Non-ECR category? *</label>
+        <select id="ECR" name="ECR">
+          <option>Select</option>
+          <option>Yes</option>
+          <option>No</option>
+          
+          
+        </select><br/><br/>
+        <label for="mark"> Visible Distinguishing Mark</label>
+        <input type="text" id="mark"/><br/><br/>
+        <label for="aadhaar">Aadhaar Number</label>
+        <input id="aadhaar"/><br/><br/>
+        <div class="second">
+          <p> I, the holder of above mentioned Aadhaar Number , hereby give my consent to Passport Seva to obtain my Aadhaar Number, Name and 
+            Fingerprint/Iris for authentication with UIDAI. I have no objection using my identity and biometric information for validation with Aadhaar 
+            (CIDR) database only for the purpose of authentication.</p>
+            <label for="agrre">I Agree</label>
+        <input type="radio" />Yes
+<input type="radio"/>No        </div>
+<div class="Details">
+<h3>  Family Details (Father/Mother/Legal Guardian details; at least one is mandatory.) *</h3></div>
+        <label for="middle Name"> Father's Given Name (Given Name means First Name followed by Middle Name (If any))</label><br/>
+        <input id="middle-Name"/><br/><br/>
+        <label for="surname"> Surname</label><br />
+        <input type="text" id="surname" name="surname" /><br /><br/>
+        <label for="legal"> Legal Guardian's Given Name (if applicable)</label><br/>
+        <input id="legal"/><br/><br/>
+        
+        
+        <p class="end">Page of</p>
+      </form>
+    </div>
+  </div>
+  <div class="body-1">
+    <br/>
+    <form>
+      <label for="surname"> Surname</label><br />
+        <input type="text" id="surname" name="surname" /><br /><br/>
+        <label for="mother-Name"> Mother's Given Name (Given Name means First Name followed by Middle Name (If any))</label><br/>
+        <input type="text" id="mother-Name"/><br/><br/>
+        <label for="surname"> Surname</label><br />
+        <input type="text" id="surname" name="surname" /><br /><br/>
+        <div class="address"> Present Residential Address Details (where applicant presently resides)  </div><br/><br/>
+        <label for="address">Is your present address out of India? *</label>
+    
+        <input class="input" type="radio" name="input"/>Yes
+      <input  class="input-1" type="radio" name="input"/>No
+    
+  </div>
+  </body>
+</html>
