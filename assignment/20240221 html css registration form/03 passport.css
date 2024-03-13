@@ -1,12 +1,19 @@
 .body {
   border: 20px solid rgb(238, 233, 233);
   /* background-color: blanchedalmond; */
-  height: 1450px;
-  width: 60%;
+  height: 1500px;
+  width: 65%;
   /* display: flex;
   align-items: center;
   justify-content: center; */
   margin: auto;
+}
+.body-2 {
+  margin: auto;
+  height: 1430px;
+  width: 99%;
+  /* border: 1px solid black; */
+  margin-top: 5px;
 }
 .content {
   display: flex;
@@ -96,8 +103,8 @@
 .body-1 {
   border: 20px solid rgb(238, 233, 233);
   /* background-color: blanchedalmond; */
-  height: 1200px;
-  width: 60%;
+  height: 1700px;
+  width: 65%;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -115,4 +122,151 @@
 }
 .input-1 {
   margin-left: 5%;
+}
+.details,
+.self {
+  background-color: rgb(153, 151, 151);
+}
+.body {
+  border: 20px solid rgb(238, 233, 233);
+  /* background-color: blanchedalmond; */
+  height: 1440px;
+  width: 65%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: auto;
+  margin-top: 5px;
+}
+.second {
+  border: 1px solid black;
+  height: 120px;
+  width: 100%;
+}
+.button {
+  height: 15px;
+  margin-left: 5px;
+}
+.agree {
+  margin-left: 5px;
+}
+.third {
+  height: 30px;
+  width: 25%;
+}
+.body-3 {
+}
+#house-no {
+  width: 79%;
+}
+#village {
+  width: 30%;
+}
+.region {
+  width: 30%;
+}
+#state {
+  width: 30%;
+}
+#district {
+  width: 30%;
+}
+#code {
+  width: 21.5%;
+}
+#number {
+  width: 21.2%;
+}
+#telephone {
+  width: 22%;
+}
+#e-mail {
+  width: 63%;
+  margin-left: 95px;
+}
+#permanent {
+  margin-left: 10%;
+}
+#permanent-1 {
+  margin-left: 5%;
+}
+#Address {
+  width: 99%;
+}
+#mobile {
+  margin-left: 5%;
+}
+#telephone {
+  margin-left: 5%;
+}
+#hold {
+  margin-left: 40%;
+}
+#yes {
+  margin-left: 39%;
+}
+#india {
+  margin-left: 80%;
+}
+#force {
+  margin-left: 76%;
+}
+#court {
+  margin-left: 88%;
+}
+#less {
+  margin-left: 88%;
+}
+#india-2 {
+  margin-left: 88%;
+}
+#refused {
+  margin-left: 88%;
+}
+#impounded {
+  margin-left: 88%;
+}
+#revoked {
+  margin-left: 88%;
+}
+#provide {
+  margin-left: 40%;
+}
+#region {
+  margin-left: 37.5%;
+}
+#surrendered {
+  margin-left: 53%;
+}
+#citizenship {
+  margin-left: 45%;
+}
+#Emergency {
+  margin-left: 42%;
+}
+#deported {
+  margin-left: 54%;
+}
+#repatriated {
+  margin-left: 44%;
+}
+.second-1 {
+  border: 1px solid black;
+  height: 180px;
+  width: 100%;
+}
+#place {
+  margin-left: 5%;
+  width: 30%;
+}
+#birth {
+  margin-left: 5%;
+  width: 30%;
+}
+.birth-1 {
+  margin-left: 55px;
+}
+.page {
+  margin-top: 66%;
+  margin-left: 50%;
 }
