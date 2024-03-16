@@ -1,0 +1,237 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.parent {
+  display: flex;
+  height: 650px;
+  width: 100%;
+  justify-content: space-around;
+  /* margin: auto; */
+  position: relative;
+  background-color: rgb(194, 238, 238);
+  height: 855px;
+  z-index: 0;
+}
+.main {
+  width: 25%;
+  border: 1px solid black;
+  /* z-index: 1; */
+  background-color: white;
+  height: 855px;
+  z-index: 1;
+}
+.main-1 {
+  margin-top: 10%;
+  position: relative;
+  height: 650px;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+.main-2 {
+  /* height: 650px; */
+  width: 25%;
+  border: 1px solid black;
+  background-color: white;
+  height: 855px;
+  z-index: 0;
+}
+/* .parent-1 {
+  transform: rotate(45deg);
+  margin-top: 15px;
+  margin-left: 95px;
+}
+.line {
+  height: 25px;
+  width: 65px;
+}
+.child { height: 50px;
+  width: 155px;
+  border: 1px solid black;
+  margin-top: 54%;
+  margin-left: 65px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: green; 
+} 
+.child-1 {
+   height: 50px;
+  width: 355px;
+  border: 1px solid black;
+  margin-left: 69%;
+  margin-top: -7%;
+  background-color: green; 
+}
+.child-2 {
+  /* height: 50px;
+  width: 155px;
+  border: 1px solid black;
+  margin-left: 48%;
+  margin-top: 5%;
+  transform: rotate(90deg);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: green; */
+}
+
+.child-3 {
+  /* height: 50px;
+  width: 525px;
+  border: 1px solid black;
+  margin-left: -14%;
+  transform: rotate(90deg);
+  margin-top: 87px;
+  background-color: green; */
+}
+
+/* .child-4 { */
+/* height: 50px;
+  width: 155px;
+  border: 1px solid black;
+  transform: rotate(90deg);
+  margin-left: 15%;
+  margin-top: -195px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: green;
+}*/
+.image {
+  /* margin-left: 20%;
+  margin-top: -336px; */
+  /* transform: rotate(45deg); */
+}
+.index img {
+  position: absolute;
+  margin-left: 624px;
+  /* width: 276px; */
+  margin-top: 25px;
+  width: 276px;
+  height: 276px;
+  transform: rotateZ(45deg);
+  border-radius: 11px;
+  z-index: 0;
+  /* transform: rotate(45deg); */
+  /* display: inline-block; */
+}
+.index-1 img {
+  position: absolute;
+  margin-left: 454px;
+  margin-top: -77px;
+  width: 173px;
+  height: 175px;
+  transform: rotateZ(45deg);
+  border-radius: 11px;
+  background-color: rgb(157, 234, 157);
+}
+.index-2 img {
+  /* display: inline-block; */
+  /* transform: rotate(45deg); */
+  position: absolute;
+  margin-left: 253px;
+  margin-top: 8px;
+  width: 214px;
+  height: 214px;
+  transform: rotateZ(45deg);
+  border-radius: 11px;
+  top: 44px;
+}
+.index-3 img {
+  /* display: inline-block; */
+  /* transform: rotate(45deg); */
+  position: absolute;
+  top: 236px;
+  margin-left: 434px;
+
+  height: 214px;
+  width: 214px;
+  transform: rotate(45deg);
+  border-radius: 17px;
+}
+.child{
+  /* height: 35px; */
+  width: 114px;
+  border: 1px solid black;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  transform: rotate(45deg);
+  margin-left: 154px;
+  position: absolute;
+  /* top: 45px; */
+  
+  top: -11px;
+  left: 61px;
+  height: 75px;
+  background-color: green;
+
+}
+.child-1{
+  /* height: 35px;
+  width: 114px; */
+  border: 1px solid black;
+  position: absolute;
+  /* top: 466px;
+  left: 555px; */
+  transform: rotate(45deg);
+  
+  top: 473px;
+  left: 549px;
+  height: 75px;
+  width: 283px;
+  background-color: green;
+}
+.child-3{
+  height: 75px;
+  width: 100px;
+  position: absolute;
+  border: 1px solid black;
+  
+  top: 196px;
+  left: 165px;
+  transform: rotate(-44deg);
+  border-top-left-radius: 25px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: green;
+
+}
+.child-4{
+  height: 75px;
+  /* width: 200px; */
+  position: absolute;
+  border: 1px solid black;
+  /* border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px; */
+  top: 404px;
+  left: -103px;
+  width: 498px;
+  transform: rotate(134deg);
+  background-color: green;
+}
+.child-5{
+  height: 75px;
+  /* width: 100px; */
+  position: absolute;
+  border: 1px solid black;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  top: 460px;
+  left: 400px;
+  width: 120px;
+  transform: rotate(136deg);
+  background-color: green;
+}
+
+.A-Image img{
+  width: 82px;
+  height: 82px;
+  /* background-color: red; */
+  border: 1px solid black;
+z-index: 1;
+position: absolute;
+}
+.logo{
+  margin-left: 85px;
+  height: 30px;
+  width: 40px;
+}
