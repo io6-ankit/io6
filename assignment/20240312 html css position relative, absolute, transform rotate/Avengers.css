@@ -73,7 +73,6 @@
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   background-color: green; */
-}
 
 .child-3 {
   /* height: 50px;
@@ -110,6 +109,7 @@
   height: 276px;
   transform: rotateZ(45deg);
   border-radius: 11px;
+  box-shadow: 5px 5px 5px 5px;
   z-index: 0;
   /* transform: rotate(45deg); */
   /* display: inline-block; */
@@ -123,6 +123,7 @@
   transform: rotateZ(45deg);
   border-radius: 11px;
   background-color: rgb(157, 234, 157);
+  box-shadow: 5px 5px 5px 5px;
 }
 .index-2 img {
   /* display: inline-block; */
@@ -135,6 +136,7 @@
   transform: rotateZ(45deg);
   border-radius: 11px;
   top: 44px;
+  box-shadow: 5px 5px 5px 5px;
 }
 .index-3 img {
   /* display: inline-block; */
@@ -147,45 +149,45 @@
   width: 214px;
   transform: rotate(45deg);
   border-radius: 17px;
+  box-shadow: 5px 5px 5px 5px;
 }
-.child{
+.child {
   /* height: 35px; */
   width: 114px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   transform: rotate(45deg);
   margin-left: 154px;
   position: absolute;
   /* top: 45px; */
-  
+
   top: -11px;
   left: 61px;
   height: 75px;
   background-color: green;
-
 }
-.child-1{
+.child-1 {
   /* height: 35px;
   width: 114px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: absolute;
   /* top: 466px;
   left: 555px; */
   transform: rotate(45deg);
-  
+
   top: 473px;
   left: 549px;
   height: 75px;
   width: 283px;
   background-color: green;
 }
-.child-3{
+.child-3 {
   height: 75px;
   width: 100px;
   position: absolute;
-  border: 1px solid black;
-  
+  /* border: 1px solid black; */
+
   top: 196px;
   left: 165px;
   transform: rotate(-44deg);
@@ -193,13 +195,12 @@
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   background-color: green;
-
 }
-.child-4{
+.child-4 {
   height: 75px;
   /* width: 200px; */
   position: absolute;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* border-top-left-radius: 50px;
   border-bottom-left-radius: 50px; */
   top: 404px;
@@ -208,11 +209,11 @@
   transform: rotate(134deg);
   background-color: green;
 }
-.child-5{
+.child-5 {
   height: 75px;
   /* width: 100px; */
   position: absolute;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   top: 460px;
@@ -222,16 +223,58 @@
   background-color: green;
 }
 
-.A-Image img{
+.A-Image img {
   width: 82px;
   height: 82px;
   /* background-color: red; */
-  border: 1px solid black;
-z-index: 1;
-position: absolute;
+  /* border: 1px solid black; */
+  z-index: 1;
+  position: absolute;
+  box-shadow: 10px;
 }
-.logo{
-  margin-left: 85px;
-  height: 30px;
-  width: 40px;
+.logo {
+  margin-left: 110px;
+  height: 32px;
+  width: 132px;
+  position: absolute;
+  top: -111px;
+  color: brown;
+  text-shadow: 5px 5px 5px;
+}
+.logo-1 {
+  position: absolute;
+  top: -140px;
+  left: 30px;
+}
+.logo-2 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  top: 570px;
+  left: 570px;
+}
+.logo-3 {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 110px;
+}
+.logo-4 {
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: 145px;
+}
+.iron-main {
+  position: absolute;
+  top: 556px;
+  left: 144px;
+}
+.sadow {
+  text-shadow: 2px 2px 2px;
+  color: rgb(125, 188, 125);
+}
+.sadow-1 {
+  text-shadow: 2px 2px 2px;
+  color: rgb(74, 16, 16);
 }
