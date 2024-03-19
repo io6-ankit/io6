@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.main-parent {
+  height: 2000px;
+  width: 100%;
+  /* border: 5px solid rgb(13, 151, 57); */
+}
+.new {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  border-radius: 50px;
+  left: 42.5%;
+  color: white;
+  background-color: red;
+}
+.parent {
+  height: 80px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.nav-container {
+  height: 80px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: rgb(15, 60, 201);
+}
+.nav-container-1 {
+  height: 80px;
+  width: 60%;
+  /* border: 1px solid black; */
+  display: flex;
+  background-color: rgb(15, 60, 201);
+}
+.nav-container-2 {
+  height: 80px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: rgb(15, 60, 201);
+}
+.image {
+  height: 50px;
+  width: 50px;
+
+  position: absolute;
+  left: 245px;
+  top: 10px;
+}
+.image-A {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  position: absolute;
+  left: 80%;
+  border-radius: 50px;
+  top: 15px;
+}
+.image-B {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+
+  position: absolute;
+
+  left: 84%;
+  top: 15px;
+  border-radius: 50px;
+}
+/* left: 245px; */
+/* top: 10px; */
+
+#index {
+  margin: 20px;
+}
+.parent-1 {
+  height: 60px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.nav-container-3 {
+  height: 60px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: rgb(10, 40, 133);
+}
+.nav-container-4 {
+  height: 60px;
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  background-color: rgb(10, 40, 133);
+}
+.index-1 {
+  margin: 20px;
+}
+.parent-2 {
+  height: 550px;
+  width: 100%;
+  /* border: 1px solid black; */
+
+  /* background-image: url("low-battery-concept-illustration_114360-6991.jpg"); */
+  /* background-size: cover; */
+  /* width: 34px; */
+  /* height: 1px; */
+}
+.image-1 {
+  height: 549px;
+  width: 100%;
+}
+.word {
+  position: absolute;
+  font-size: 67px;
+  left: 184px;
+  color: rgb(182, 177, 130);
+  top: 209px;
+}
+.word-1 {
+  position: absolute;
+  color: white;
+  top: 440px;
+  left: 181px;
+}
+#button {
+  height: 29px;
+  width: 134px;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 255);
+  color: white;
+}
+.parent-3 {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 34px;
+  border-radius: 20px;
+}
+.parent-3 {
+  height: 400px;
+  width: 80%;
+  /* border: 1px solid rgb(175, 35, 35); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  background-color: blue;
+}
+.image-2 {
+  height: 300px;
+  width: 40%;
+  margin-left: 896px;
+}
+.word-2 {
+  position: absolute;
+  left: 300px;
+  font-size: 63px;
+  color: white;
+}
+.button-1 {
+  height: 50px;
+  width: 123px;
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+}
+.parent-4 {
+  height: 150px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.word-3 {
+  position: absolute;
+
+  margin-top: 20px;
+
+  left: 25%;
+  /* top: 2%; */
+  top: 1134px;
+  font-size: 63px;
+}
+.parent-5 {
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.nav-container-5 {
+  height: 200px;
+  width: 30%;
+  /* border: 1px solid black; */
+}
+/*  */
+.jio-5G {
+}
+.india {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 60%;
+}
+.india-1 {
+  height: 50px;
+  width: 190px;
+  position: absolute;
+  left: 56%;
+  margin-top: 70px;
+}
+.jio-5 {
+  position: absolute;
+  color: white;
+  background-color: blue;
+  left: 126px;
+  border-radius: 50px;
+}
+.jio-5-1 {
+  position: absolute;
+
+  /* position: absolute; */
+  /* top: 309%; */
+  left: 128px;
+  top: 180%;
+  /* left: 128px; */
+}
+.latency {
+  margin-top: 75px;
+  margin-left: 69px;
+}
+.massege {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 35%;
+}
+.massege-1 {
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  left: 34%;
+  margin-top: 70px;
+}
+.jio {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 85%;
+}
+.jio-1 {
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  left: 85%;
+  margin-top: 70px;
+}
+.free {
+  margin-top: 105px;
+  margin-left: 106px;
+}
+
+.faster {
+  margin-top: 100px;
+  margin-left: 69px;
+}
+.unlimited {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.order {
+  position: absolute;
+
+  left: 316px;
+  top: 240%;
+}
+.button-2 {
+  height: 50px;
+  width: 123px;
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.button-3 {
+  height: 50px;
+  width: 123px;
+  border-radius: 50px;
+  background-color: rgb(231, 235, 248);
+  color: rgb(25, 23, 23);
+  border: 1px solid white;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.parent-6 {
+  height: 400px;
+  width: 80%;
+  /* border: 1px solid rgb(175, 35, 35); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  background-color: rgb(231, 235, 248);
+  border-radius: 20px;
+}
