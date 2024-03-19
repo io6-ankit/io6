@@ -8,9 +8,9 @@ a {
   text-decoration: none;
 }
 .main-parent {
-  height: 2000px;
+  height: 3000px;
   width: 100%;
-  /* border: 5px solid rgb(13, 151, 57); */
+  border: 5px solid rgb(13, 151, 57);
 }
 .new {
   height: 20px;
@@ -311,4 +311,121 @@ a {
   margin-left: 150px;
   background-color: rgb(231, 235, 248);
   border-radius: 20px;
+}
+.word-A {
+  position: absolute;
+  left: 300px;
+  font-size: 63px;
+  color: black;
+}
+.image-a {
+  height: 300px;
+  width: 40%;
+  margin-left: 840px;
+}
+.mobile-plane {
+  height: 800px;
+  width: 100%;
+  border: 1px solid black;
+}
+.plane {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: rgb(231, 235, 248);
+}
+.popular {
+  position: absolute;
+
+  font-size: 67px;
+  left: 460px;
+}
+.choose {
+  margin-left: 500px;
+}
+.recharge {
+  height: 280px;
+  width: 100%;
+  border: 1px solid black;
+}
+.POstpaid {
+  height: 50px;
+  width: 15%;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  margin-left: 600px;
+  background-color: white;
+}
+.prepaid {
+  height: 50px;
+  width: 40%;
+  border-radius: 50px;
+  background-color: rgb(15, 60, 201);
+  color: white;
+}
+.postpaid-A {
+  height: 50px;
+  width: 40%;
+  border-radius: 50px;
+  margin-left: 40.5px;
+}
+.recharge {
+  display: flex;
+}
+.trending {
+  height: 280px;
+  width: 25%;
+  border: 1px solid black;
+  margin-left: 12%;
+}
+.trending-A {
+  border: 1px solid black;
+  width: 90px;
+}
+.youtube {
+  height: 50px;
+  width: 50px;
+}
+.jio-cinema {
+  height: 50px;
+  width: 50px;
+}
+.extra-data {
+  height: 280px;
+  width: 25%;
+  border: 1px solid black;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.extra-data-A {
+  border: 1px solid black;
+  width: 270px;
+}
+.amazon {
+  height: 50px;
+  width: 50px;
+}
+.hotstar {
+  height: 50px;
+  width: 50px;
+}
+.horizental {
+  margin: 10px;
+}
+.online {
+  height: 280px;
+  width: 25%;
+  border: 1px solid black;
+}
+.online-A {
+  border: 1px solid black;
+  width: 180px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.cinema {
+  height: 50px;
+  width: 50px;
 }
