@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 .main-parent {
-  height: 6000px;
+  height: 6150px;
   width: 100%;
   /* border: 5px solid rgb(13, 151, 57); */
 }
@@ -120,7 +120,8 @@ a {
   position: absolute;
   font-size: 67px;
   left: 184px;
-  color: rgb(182, 177, 130);
+  /* color: rgb(182, 177, 130); */
+  color: white;
   top: 209px;
 }
 .word-1 {
@@ -742,7 +743,8 @@ a {
 .parent-9 {
   height: 200px;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  background-color: rgb(245, 245, 245);
 }
 #child-6 {
   font-size: 70px;
@@ -755,16 +757,19 @@ a {
 .parent-10 {
   height: 400px;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(245, 245, 245);
 }
 .child-8 {
-  height: 400px;
+  height: 375px;
   width: 25%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  background-color: white;
   margin-right: 60px;
+  border-radius: 20px;
   /* position: absolute; */
   /* margin-top: 10px; */
   /* margin-left: 20px; */
@@ -775,33 +780,47 @@ a {
   margin-left: 20px;
 }
 .child-9 {
-  height: 400px;
+  height: 375px;
+  background-color: white;
   width: 25%;
-  border: 1px solid black;
+  border-radius: 20px;
+  /* border: 1px solid black; */
 }
 .child-10 {
-  height: 400px;
+  height: 375px;
+  background-color: white;
+  border-radius: 20px;
   width: 25%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-left: 60px;
   /* background-color: red; */
 }
 .image-3 {
-  height: 250px;
-  margin-top: 40px;
-  margin-left: 30px;
+  /* height: 250px; */
+  margin-top: 85px;
+  /* margin-left: 30px; */
 
-  /* width: 50px; */
+  width: 362px;
+}
+#bharat {
+  position: absolute;
+  margin-left: 30px;
+}
+#p {
+  position: absolute;
+  margin-left: 30px;
 }
 .image-4 {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 65px;
-  left: 43%;
+  height: 210px;
+  /* left: 43%; */
 }
 .image-5 {
   height: 210px;
-  position: absolute;
-  margin-top: 107px;
+  margin-left: 85px;
+  /* position: absolute; */
+  margin-top: 72px;
 }
 .parent-11 {
   width: 100%;
@@ -894,4 +913,120 @@ a {
 }
 #single-line {
   margin-left: 483px;
+}
+.parent-14 {
+  height: 800px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+#nun {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+}
+#Our-offerings {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#Support-1 {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#Our-company {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#Useful-links {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#download {
+  height: 800px;
+  width: 21%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#link-1 {
+  color: rgb(86, 86, 86);
+}
+#link-2 {
+  color: rgb(86, 86, 86);
+}
+#link-3 {
+  color: rgb(86, 86, 86);
+}
+#png {
+  height: 30px;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  margin-left: 25px;
+}
+#badge {
+  height: 60px;
+}
+#badge-1 {
+  height: 40px;
+
+  position: absolute;
+  margin-top: 11px;
+}
+.parent-15 {
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid black;
+  display: flex;
+}
+#children-2 {
+  height: 80px;
+  width: 10%;
+  /* border: 1px solid black; */
+}
+#children-3 {
+  height: 80px;
+  width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+#children-6 {
+  height: 80px;
+  width: 20%;
+  /* border: 1px solid black; */
+}
+#children-5 {
+  height: 50px;
+  width: 29%;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+#site {
+  color: rgb(26, 11, 167);
+  margin: 10px;
+}
+#jio-logo {
+  height: 50px;
+}
+#Copyright-1 {
+  position: absolute;
+
+  margin-top: 15px;
+  left: 211px;
+}
+.ankit {
+  height: 62px;
+  width: 50px;
+  border-half-top: 1px solid red;
+  border-bottom: 1px solid green;
+  border-left: 1px solid pink;
+  border-right: 1px solid yellow;
 }
