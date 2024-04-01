@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>solar-system</title>
+    <style>
+      body {
+        background-image: url(./night-sky.jpg);
+      }
+
+      .first-circle {
+        height: 1000px;
+        width: 1000px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        margin: 10px auto;
+        position: relative;
+        animation-name: neptune;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes neptune {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .neptune {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 220px;
+        border-radius: 50%;
+      }
+      .second-circle {
+        height: 900px;
+        width: 900px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        position: absolute;
+
+        left: 309px;
+        top: 56px;
+        animation-name: uranus;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes uranus {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .uranus {
+        height: 80px;
+        width: 80px;
+        border-radius: 60%;
+        position: absolute;
+        top: 225px;
+        border-radius: 50%;
+      }
+      .third-circle {
+        height: 800px;
+        width: 800px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        left: 360px;
+        animation-name: saturn;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes saturn {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .saturn {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+
+        top: 40px;
+        left: 610px;
+      }
+      .fourth-circle {
+        height: 700px;
+        width: 700px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        left: 412px;
+        animation-name: jupiter;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes jupiter {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .jupiter {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        border-radius: 50%;
+        top: 288px;
+        left: -40px;
+      }
+      .five-circle {
+        height: 600px;
+        width: 600px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        position: absolute;
+        top: 200px;
+        left: 462px;
+        animation-name: mars;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes mars {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .mars {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 401px;
+      }
+      .six-circle {
+        height: 500px;
+        width: 500px;
+        /* border: 1px solid black;
+         */
+        border-radius: 50%;
+        position: absolute;
+        top: 250px;
+        left: 510px;
+        animation-name: earth;
+        animation-duration: 35s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes earth {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .earth {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 239px;
+        left: 460px;
+      }
+      .seven-circle {
+        height: 400px;
+        width: 400px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        position: absolute;
+        top: 300px;
+        left: 562px;
+        animation-name: venus;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes venus {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .venus {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: -38px;
+        left: 150px;
+        border-radius: 50%;
+      }
+      .eight-circle {
+        height: 300px;
+        width: 300px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        position: absolute;
+        top: 350px;
+        left: 610px;
+        animation-name: mercury;
+        animation-duration: 45s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes mercury {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .mercury {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        border-radius: 50%;
+
+        top: 256px;
+        left: 120px;
+      }
+      .nine-circle {
+        height: 200px;
+        width: 200px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        position: absolute;
+        top: 400px;
+        left: 660px;
+        /* background-color: yellow; */
+      }
+      .sun {
+        height: 260px;
+        width: 260px;
+        position: absolute;
+        top: -30px;
+        left: -27px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-circle">
+      <img class="neptune" src="./neptune.png" />
+    </div>
+    <div class="second-circle">
+      <img class="uranus" src="./uranus.png" />
+    </div>
+
+    <div class="third-circle">
+      <img class="saturn" src="./saturn.png" />
+    </div>
+
+    <div class="fourth-circle">
+      <img class="jupiter" src="./jupiter.png" />
+    </div>
+    <div class="five-circle">
+      <img class="mars" src="./mars.png" />
+    </div>
+    <div class="six-circle">
+      <img class="earth" src="./earth-png.png" />
+    </div>
+
+    <div class="seven-circle">
+      <img class="venus" src="./venus-png.png" />
+    </div>
+    <div class="eight-circle">
+      <img class="mercury" src="./mercury.webp" />
+    </div>
+    <div class="nine-circle">
+      <img class="sun" src="./sun.png" />
+    </div>
+  </body>
+</html>

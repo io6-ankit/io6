@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>loader watch</title>
+    <style>
+      .main-circle {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin: 5% auto;
+        position: relative;
+        background-color: antiquewhite;
+      }
+
+      .first-circle {
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        animation-name: second-hand;
+        animation-duration: 3600s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes second-hand {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .minute-hand {
+        height: 50px;
+        width: 2px;
+        /* border: 1px solid black; */
+        background-color: blueviolet;
+        position: absolute;
+        left: 8px;
+      }
+      .second-circle {
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: relative;
+        position: absolute;
+        background-color: rgb(0, 255, 38);
+        top: -1px;
+        animation-name: minute-hand;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes minute-hand {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .second-hand {
+        height: 80px;
+        width: 2px;
+        /* border: 1px solid black; */
+        position: absolute;
+        background-color: rgb(0, 255, 94);
+        left: 8px;
+        top: -62px;
+      }
+      .circle {
+        position: absolute;
+        left: 85px;
+        top: 85px;
+      }
+      .number-12 {
+        position: absolute;
+        left: 83px;
+      }
+      .number-9 {
+        position: absolute;
+
+        top: 70px;
+        left: 16px;
+      }
+      .number-3 {
+        position: absolute;
+        left: 168px;
+        top: 70px;
+      }
+      .number-6 {
+        position: absolute;
+
+        top: 145px;
+        left: 91px;
+      }
+      .third-circle {
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: relative;
+        position: absolute;
+        top: 0px;
+        background-color: rgb(255, 0, 0);
+        animation-name: hours-hand;
+        animation-duration: 43200s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes hours-hand {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .hours-hand {
+        height: 40px;
+        width: 2px;
+        /* border: 1px solid black; */
+        position: absolute;
+        left: 7px;
+        background-color: rgb(255, 0, 25);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-circle">
+      <p class="number-12">12</p>
+      <br /><br />
+
+      <p class="number-9">9</p>
+      <p class="number-3">3</p>
+      <br />
+      <p class="number-6">6</p>
+      <div class="circle">
+        <div class="first-circle">
+          <div class="minute-hand"></div>
+        </div>
+        <div class="second-circle">
+          <div class="second-hand"></div>
+        </div>
+        <div class="third-circle">
+          <div class="hours-hand"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
