@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>car drive</title>
+    <style>
+      .main-parent {
+        position: relative;
+      }
+      /* .car {
+        height: 30px;
+        width: 60px;
+      } */
+      .car-1 {
+        height: 25px;
+        width: 50px;
+        position: absolute;
+
+        top: 234px;
+        transform: rotate(180deg);
+        animation: car-1;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes car-1 {
+        0% {
+          top: 234px;
+          left: 0px;
+          transform: rotate(180deg);
+        }
+        12% {
+          top: 394px;
+          left: 10%;
+          transform: rotate(270deg);
+        }
+        24% {
+          top: 234px;
+          left: 100%;
+          transform: rotate(180deg);
+        }
+        36% {
+          top: 334px;
+          left: 100%;
+          transform: rotate(0deg);
+        }
+        48% {
+          top: 234px;
+          left: 100%;
+          transform: rotate(-90deg);
+        }
+        60% {
+          top: 234px;
+          left: 100%;
+          transform: rotate(-90deg);
+        }
+        72% {
+          top: 234px;
+          left: 100%;
+          transform: rotate(-90deg);
+        }
+        84% {
+          top: 234px;
+          left: 100%;
+          transform: rotate(-90deg);
+        }
+        100% {
+          top: 234px;
+          left: 100%;
+          transform: rotate(-90deg);
+        }
+      }
+      .car-2 {
+        height: 30px;
+        width: 60px;
+
+        position: absolute;
+        left: 273px;
+        transform: rotate(270deg);
+      }
+      .car-3 {
+        height: 30px;
+        width: 60px;
+        position: absolute;
+        top: 680px;
+        left: 675px;
+        transform: rotate(90deg);
+      }
+      .car-4 {
+        height: 15px;
+        width: 30px;
+
+        position: absolute;
+        right: 0px;
+        top: 383px;
+        animation-name: car-4;
+        animation-duration: 30s;
+        /* animation-iteration-count: infinite; */
+      }
+      @keyframes car-4 {
+        0% {
+          right: 0%;
+          top: 383px;
+          transform: rotate(0deg);
+        }
+        25% {
+          right: 52%;
+          transform: rotate(0deg);
+          top: 383px;
+        }
+        50% {
+          right: 52%;
+          top: 383px;
+          transform: rotate(90deg);
+        }
+        75% {
+          right: 52%;
+          top: 383px;
+        }
+
+        100% {
+          right: 52%;
+          top: 0px;
+          transform: rotate(90deg);
+        }
+      }
+      body {
+        background-image: url(./car-drive.jpeg);
+        height: 100vh;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-parent">
+      <img class="car-1" src="./car.png" />
+      <img class="car-2" src="./car.png" />
+      <img class="car-3" src="./car.png" />
+      <img class="car-4" src="./car.png" />
+    </div>
+  </body>
+</html>

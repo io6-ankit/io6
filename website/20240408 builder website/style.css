@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: border-radius;
+}
+.godaddy {
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+}
