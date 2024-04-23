@@ -1,0 +1,685 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* border: border-radius; */
+}
+/* header-start */
+.main-parent {
+  height: 3000px;
+  width: 100%;
+  /* border: 1px solid black; */
+  position: relative;
+}
+.godaddy {
+  height: 80px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  /* margin-top: 40px; */
+  position: relative;
+  background-color: rgb(235, 236, 237);
+  position: fixed;
+  overflow: hidden;
+  z-index: 9;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 80px;
+  top: 25px;
+}
+.vgd {
+  position: absolute;
+  left: 150px;
+  top: 25px;
+}
+.home {
+  position: absolute;
+  left: 30%;
+  top: 25px;
+  /* text-decoration: none; */
+}
+#home-1 {
+  color:black;
+  text-decoration: none;
+}
+#cases-1 {
+  color: black;
+
+  text-decoration: none;
+}
+#about-1 {
+  color: black;
+  text-decoration: none;
+}
+#contacts-1 {
+  color: black
+  text-decoration: none;
+}
+#clients-1 {
+  color: black
+  text-decoration: none;
+}
+.cases {
+  position: absolute;
+  left: 40%;
+  top: 25px;
+}
+.about {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+}
+.contacts {
+  position: absolute;
+  left: 60%;
+  top: 25px;
+}
+.clients {
+  position: absolute;
+  left: 70%;
+  top: 25px;
+}
+/* header-end */
+/* heading-start */
+.heading {
+  height: 250px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: rgb(235, 236, 237);
+
+  /* position: relative; */
+}
+.studio {
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.studio-1 {
+  position: absolute;
+  left: 45%;
+  font-size: 20px;
+  z-index: 9;
+}
+.Graphics-Design {
+  position: absolute;
+  font-size: 80px;
+  left: 25%;
+  top: 1px;
+  z-index: 9;
+}
+.paragraph {
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+  top: 150px;
+  z-index: 9;
+}
+.paragraph-1 {
+  position: absolute;
+  left: 45%;
+  top: 180px;
+  font-size: 20px;
+}
+/* heading-end */
+/* graphics-image-start */
+.graphics-class {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+
+  background-color: rgb(235, 236, 237);
+}
+.graphics-image {
+  height: 400px;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+.background1 {
+  height: 400px;
+  width: 100%;
+}
+.color {
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: rgb(235, 236, 237);
+}
+/* graphics-image-end */
+/* design-program-start */
+.design-program {
+  height: 800px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.design-paragraph {
+  height: 800px;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin-left: 10%;
+  /* position: relative; */
+  background-color: rgb(245, 239, 237);
+}
+.number {
+  position: absolute;
+  top: 36%;
+  left: 16%;
+  font-size: 20px;
+}
+.design-program-word {
+  position: absolute;
+  top: 38%;
+  font-size: 70px;
+  left: 15%;
+  text-decoration: none;
+  color: black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(183, 116, 34);
+}
+/* #design-program-word {
+  position: absolute;
+  top: 38%;
+  font-size: 70px;
+  left: 15%;
+  text-decoration: none;
+  color: black;
+} */
+.paragraph-2 {
+  position: absolute;
+  font-size: 20px;
+  top: 42%;
+  left: 15%;
+}
+.image-2 {
+  height: 23%;
+  width: 35%;
+  position: absolute;
+  left: 65%;
+  top: 29.7%;
+}
+/* .design-program-end */
+/* graphics-paragraph-start */
+
+.graphics-paragraph {
+  height: 20%;
+  width: 100%;
+  /* border: 1px solid rgb(172, 35, 35); */
+  position: absolute;
+  top: 48%;
+  background-color: rgb(235, 236, 237);
+
+  z-index: -1;
+}
+.number-1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.mollitia {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  font-size: 28px;
+}
+.paragraph-3 {
+  position: absolute;
+  top: 49%;
+  left: 30%;
+  font-size: 18px;
+  color: rgb(131, 143, 157);
+}
+.number-2 {
+  position: absolute;
+  top: 30%;
+  left: 66%;
+}
+.assumenda {
+  position: absolute;
+  top: 35%;
+  left: 66%;
+  font-size: 28px;
+}
+.paragraph-4 {
+  position: absolute;
+  top: 49%;
+  left: 66%;
+  font-size: 18px;
+  color: rgb(131, 143, 157);
+}
+/* website-image-start*/
+
+.website-image {
+  height: 30%;
+  width: 100%;
+  /* border: 1px solid rgb(22, 91, 47); */
+  background-color: rgb(245, 239, 237);
+  position: absolute;
+  top: 67%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.designer-image {
+  height: 65%;
+  width: 30%;
+  margin-left: 30px;
+  /* position: absolute;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+  transition: all 3s; */
+}
+/* .designer-image {
+  width: 10px;
+  height: 10px;
+  background: red;
+  transition: 2s;
+} */
+
+.designer-paragraph-word {
+  position: absolute;
+  left: 3%;
+  font-size: 70px;
+  color: white;
+  margin-top: 38%;
+}
+.designer-paragraph-word-1 {
+  position: absolute;
+  left: 3%;
+  font-size: 18px;
+  color: rgb(136, 144, 157);
+  margin-top: 44%;
+}
+.graphics-image-1 {
+  height: 65%;
+  width: 30%;
+}
+.graphics-paragraph-word {
+  position: absolute;
+  left: 37%;
+  margin-top: 38%;
+  color: white;
+  font-size: 70px;
+}
+.graphics-paragraph-word-1 {
+  position: absolute;
+  left: 37%;
+  margin-top: 44%;
+  color: rgb(136, 144, 157);
+  font-size: 18px;
+}
+.Visual-image {
+  height: 65%;
+  width: 30%;
+  margin-right: 30px;
+}
+.visual-paragraph-word {
+  position: absolute;
+  left: 70%;
+  color: white;
+  font-size: 70px;
+  margin-top: 38%;
+}
+.visual-paragraph-word-1 {
+  position: absolute;
+  left: 70%;
+  color: rgb(136, 144, 157);
+  font-size: 18px;
+  margin-top: 44%;
+}
+/* website-image-end*/
+/* Suscipit voluptas-start */
+.Suscipit-voluptas {
+  height: 15%;
+  width: 100%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 97%;
+  background-color: rgb(235, 236, 237);
+}
+.Suscipit-paragraph {
+  position: absolute;
+  top: 6%;
+  font-size: 20px;
+  left: 33%;
+}
+.Suscipit-paragraph-1 {
+  position: absolute;
+  top: 9%;
+  font-size: 55px;
+  left: 32%;
+}
+.image-3 {
+  height: 100%;
+  width: 300px;
+  position: absolute;
+  left: 80.2%;
+  top: 60px;
+  z-index: 9;
+}
+.Review-dolores {
+  height: 20%;
+  width: 100%;
+  /* border: 1px solid rgb(16, 144, 97); */
+  position: absolute;
+  top: 3360px;
+  background: rgb(245, 239, 237);
+}
+.Review-dolores-paragraph {
+  position: absolute;
+  top: 125px;
+  left: 54%;
+  font-size: 25px;
+}
+.paragraph-5 {
+  position: absolute;
+  top: 174px;
+  left: 50%;
+  font-size: 25px;
+}
+.image-4 {
+  position: absolute;
+  height: 485px;
+  width: 375px;
+  top: 60px;
+  left: 225px;
+}
+.Consequuntur {
+  height: 17%;
+  width: 100%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 3960px;
+  background-color: rgb(235, 236, 237);
+}
+.consequuntur-1 {
+  position: absolute;
+  left: 39%;
+  top: 10%;
+  font-size: 20px;
+}
+.number-3 {
+  position: absolute;
+  top: 60%;
+  font-size: 60px;
+  left: 35%;
+}
+.paragraph-6 {
+  position: absolute;
+  top: 80%;
+  left: 33%;
+  font-size: 25px;
+}
+.image-5 {
+  height: 50%;
+  width: 30%;
+  position: absolute;
+  left: 70%;
+  top: 15%;
+}
+.image-6 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 70%;
+  z-index: 9;
+}
+.consequuntur-div {
+  height: 12%;
+  width: 100%;
+  /* border: 1px solid rgb(162, 38, 38); */
+  position: absolute;
+  top: 4470px;
+  background-color: rgb(245, 239, 237);
+  /* z-index: 9; */
+}
+.number-4 {
+  position: absolute;
+  left: 57%;
+  top: 15%;
+  font-size: 68px;
+}
+.paragraph-7 {
+  position: absolute;
+  top: 42%;
+  font-size: 27px;
+  left: 55%;
+}
+.image-7 {
+  height: 60%;
+  width: 40%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.contacter {
+  height: 15%;
+  width: 100%;
+  /* border: 1px solid yellow; */
+  position: absolute;
+  top: 4830px;
+  background-color: rgb(235, 236, 237);
+}
+.paragraph-8 {
+  position: absolute;
+  left: 43%;
+  top: 25%;
+  font-size: 20px;
+  color: rgb(159, 167, 179);
+}
+.image-8 {
+  height: 70%;
+  width: 40%;
+  position: absolute;
+  top: 15%;
+}
+.background-image {
+  height: 20%;
+  width: 100%;
+  /* border: 1px solid blue; */
+  position: absolute;
+  top: 5280px;
+  background-color: rgb(245, 239, 237);
+}
+.image-9 {
+  height: 100%;
+  width: 100%;
+}
+.graphics-word {
+  position: absolute;
+  font-size: 115px;
+  left: 15%;
+  top: 55%;
+  color: whitesmoke;
+}
+.functional {
+  height: 12%;
+  width: 100%;
+  position: absolute;
+  top: 5881px;
+  /* border: 1px solid red; */
+  background-color: rgb(235, 236, 237);
+}
+.studio-2 {
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  font-size: 20px;
+}
+.functional-word {
+  position: absolute;
+  top: 45px;
+  left: 35%;
+  font-size: 52px;
+}
+.functional-paragraph {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 25px;
+  color: rgb(159, 167, 179);
+}
+.main {
+  height: 18%;
+  width: 100%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 6241px;
+  background-color: rgb(245, 239, 237);
+}
+.main-question {
+  position: absolute;
+  top: 7%;
+  left: 30%;
+}
+.details-tag {
+  position: absolute;
+  top: 18%;
+  font-size: 23px;
+  left: 28%;
+}
+.details-tag-1 {
+  position: absolute;
+  top: 28%;
+  font-size: 20px;
+  left: 28%;
+}
+.details-tag-2 {
+  position: absolute;
+  top: 38%;
+  font-size: 23px;
+  left: 28%;
+}
+.details-tag-3 {
+  position: absolute;
+  top: 48%;
+  font-size: 23px;
+  left: 28%;
+}
+.details-tag-4 {
+  position: absolute;
+  top: 58%;
+  font-size: 23px;
+  left: 28%;
+}
+.details-tag-5 {
+  position: absolute;
+  top: 68%;
+  font-size: 23px;
+  left: 28%;
+}
+.color-div {
+  height: 60%;
+  width: 20%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 10%;
+  background-color: white;
+}
+.Contacts-1 {
+  position: absolute;
+  height: 27%;
+  width: 100%;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 6781px;
+}
+.contacts-2 {
+  position: absolute;
+  top: 27px;
+  font-size: 25px;
+  left: 30%;
+}
+.contacts-3 {
+  position: absolute;
+  top: 65px;
+  left: 30%;
+  font-size: 30px;
+}
+.First {
+  position: absolute;
+  top: 27%;
+  left: 30%;
+  font-size: 25px;
+  color: rgb(131, 143, 157);
+}
+.input {
+  position: absolute;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  top: 33%;
+  left: 30%;
+  font-size: 45px;
+  color: rgb(131, 143, 157);
+}
+.phone {
+  position: absolute;
+  top: 39%;
+  left: 30%;
+  color: rgb(131, 143, 157);
+  font-size: 25px;
+}
+.input-1 {
+  position: absolute;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  top: 45%;
+  left: 30%;
+  font-size: 45px;
+  color: rgb(131, 143, 157);
+}
+.email {
+  position: absolute;
+  top: 52%;
+  left: 30%;
+  font-size: 25px;
+  color: rgb(131, 143, 157);
+}
+.input-2 {
+  position: absolute;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  top: 58%;
+  left: 30%;
+  font-size: 45px;
+  color: rgb(131, 143, 157);
+}
+.message {
+  position: absolute;
+  top: 68%;
+  left: 30%;
+  font-size: 25px;
+  color: rgb(131, 143, 157);
+}
+.input-3 {
+  position: absolute;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  top: 75%;
+  left: 30%;
+  font-size: 45px;
+  color: rgb(131, 143, 157);
+}
+.send {
+  top: 88%;
+  left: 30%;
+  position: absolute;
+  width: 40%;
+  height: 5%;
+  /* color: rgb(131, 143, 157); */
+}
+.send:hover {
+  background-color: rgb(169, 111, 24);
+}
