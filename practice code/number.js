@@ -1,0 +1,3 @@
+const leftHalfTriangle =(numberofrow) =>{
+    for()
+}

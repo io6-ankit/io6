@@ -1,0 +1,10 @@
+// console.log("hello");
+let sub1 = Number(prompt("enter the marks for subject-1"));
+let sub2 = Number(prompt("enter the marks for subject-2"));
+let sub3 = Number(prompt("enter the marks for subject-3"));
+let sub4 = Number(prompt("enter the marks for subject-4"));
+let sub5 = Number(prompt("enter the marks for subject-5"));
+const total_marks = sub1 + sub2 + sub3 + sub4 + sub5;
+const percentage = (total_marks * 100) / 500;
+document.write(" Total marks=" + total_marks);
+document.write(" <br/>Percentage(%)=" + percentage);

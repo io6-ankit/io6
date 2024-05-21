@@ -1,0 +1,12 @@
+// console.log("hello");
+let length = Number(prompt("enter the length"));
+let breadth = Number(prompt("enter the breadth"));
+let radius = prompt("enter the radius");
+const area = length * breadth;
+const perimeter = 2 * (length + breadth);
+const c_area = 3.14 * radius * radius;
+const c_perimeter = 2 * 3.14 * radius;
+document.write("Rectangle of area=", +area);
+document.write("<br/>Rectangle of perimeter=", +perimeter);
+document.write("<br/>Circle of area=" + c_area);
+document.write("<br/>Circle of perimeter=" + c_perimeter);

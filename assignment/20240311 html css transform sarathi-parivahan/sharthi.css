@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  height: 73px;
+  width: 96%;
+  border: 1px solid black;
+  position: relative;
+  margin: auto;
+  background-color: rgb(29, 166, 238);
+}
+.select {
+  height: 30px;
+  width: 140px;
+  /* border: 1px solid black; */
+  background-color: white;
+  position: absolute;
+
+  left: 975px;
+  top: 30px;
+}
+.image-2 {
+  position: absolute;
+  left: 535px;
+  top: 3px;
+}
+.paragraph {
+  position: absolute;
+  left: 900px;
+  top: 35px;
+}
+
+#Language {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+}
+.image-3 {
+  height: 22px;
+  width: 38px;
+  position: absolute;
+  left: 89px;
+  top: 3px;
+}
+.paragraph-1 {
+  position: absolute;
+  left: 1011px;
+  top: 9px;
+}
+.color {
+  color: white;
+}
+.sub-tag {
+  position: absolute;
+  left: 1340px;
+  top: 8px;
+  color: white;
+}
+.sub-1 {
+  position: absolute;
+  left: 1370px;
+  top: 12px;
+  color: white;
+}
+.sub-2 {
+  position: absolute;
+  left: 1400px;
+  top: 8px;
+  color: white;
+}
+.button {
+  position: absolute;
+  left: 1350px;
+  top: 35px;
+  width: 50px;
+}
+.government-department {
+  height: 50px;
+  width: 96%;
+  border: 1px solid black;
+  margin: auto;
+}
+.government-department-paragraph {
+  position: absolute;
+  left: 25%;
+  top: 85px;
+  color: blue;
+}
