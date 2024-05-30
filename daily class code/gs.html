@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gs salary</title>
+  </head>
+  <body>
+    <script>
+      let s = Number(prompt("enter the salary"));
+      let da = 0;
+      let gs = 0;
+      if (s < 1500) {
+        hra = (s * 10) / 100;
+        da = (s * 90) / 100;
+        gs = s + da + hra;
+        console.log("gross salary", gs);
+      } else if (s >= 1500) {
+        hra = 500;
+        da = (s * 98) / 100;
+        gs = s + da + hra;
+      } else {
+        console.log("invalid salary");
+      }
+    </script>
+  </body>
+</html>

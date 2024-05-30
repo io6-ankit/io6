@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>selling and coast price</title>
+  </head>
+  <body>
+    <script>
+      let c = Number(prompt("enter the coast price"));
+      console.log("coast price=", c);
+      let s = Number(prompt("enter the selling price"));
+      console.log("selling price=", s);
+      if (c < s) {
+        p = s - c;
+        console.log("profit", p);
+      } else if (s < c) {
+        l = c - s;
+        console.log("loss", l);
+      } else {
+        console.log("no profit and no loss");
+      }
+    </script>
+  </body>
+</html>

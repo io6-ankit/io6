@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>compare the number</title>
+  </head>
+  <body>
+    <script>
+      let n = Number(prompt("enter the five digit number"));
+      const m = n;
+      document.write("<br/>Five digit number is", n);
+      let rev = 0;
+      for (let i = 1; i <= 5; i++) {
+        let rem = n % 10;
+        // document.write("rem", rem);
+        rev = rev * 10 + rem;
+        n = parseInt(n / 10);
+      }
+      document.write("<br/>Reverse number is", rev);
+      //   document.write(rev);
+      //   console.log(77777 === 77777);
+      console.log(m, rev);
+      if (m > rev) {
+        console.log("greater than is number");
+      } else if (rev > m) {
+        console.log("greater than is reverse number");
+      } else {
+        console.log("number is same");
+      }
+    </script>
+  </body>
+</html>
