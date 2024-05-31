@@ -3598,6 +3598,6 @@ console.log(
 );
 console.log(
   "line-no.899",
-  swiggyResponse.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards.cards[1]
-    .card.card.itemCards[6].card.info.ribbon.bottomBackgroundColor
+  swiggyResponse.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[1].card
+    .card.itemCards[6].card.info.ribbon.bottomBackgroundColor
 );
