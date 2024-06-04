@@ -1,7 +1,13 @@
 const {
   info: {
     slugs: { restaurant },
-    info: { name, category },
+    info: {
+      name,
+      category,
+      variants: {
+        variantGroups: [name: namefull = ""],
+      },
+    },
   },
 } = {
   info: {
@@ -256,4 +262,4 @@ const {
 document.write("Hi my name is ankit maurya");
 document.write("<br/>I went to ", restaurant, "  restro and i ordered ", name);
 document.write("<br/>Which is type of ", category);
-// document.write("It was ", name, "   plate.");
+document.write("It was ", namefull, "   plate.");
