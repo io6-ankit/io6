@@ -5,7 +5,7 @@ const {
       name,
       category,
       variants: {
-        variantGroups: [name: namefull = ""],
+        variantGroups: { name: namefull = "" },
       },
     },
   },
