@@ -13,4 +13,4 @@ const handleChangeClrOfTitle = () => {
   //   console.log("i got clicked");
   const [title1, title2] = document.getElementsByClassName("account");
 };
-// selectBtn.addEventListener("click", handleChangeClrOfTitle);
+selectBtn.addEventListener("click", handleChangeClrOfTitle);
