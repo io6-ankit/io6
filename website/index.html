@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add to cart-furniture</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="navbar-brand">Vintage</a>
+          <button type="button" class="navbar-toggler">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="navbar-collapse">
+            <ul>
+              <div class="collapse-word">
+                <li>
+                  <a href="a">Home</a>
+                </li>
+                <li>
+                  <a href="a">Gallery</a>
+                </li>
+                <li>
+                  <a href="a">New Arrivals</a>
+                </li>
+                <li>
+                  <a href="a">Blog</a>
+                </li>
+                <li>
+                  <a href="a">Contact</a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div class="cart">
+            <button type="button" id="cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span id="cart-count-info">0</span>
+            </button>
+            <div class="cart-container">
+              <div class="cart-list">
+                <div class="cart-item">
+                  <img src="image/armchair.png" alt="product image" />
+                  <div class="cart-item-info">
+                    <h3 class="cart-item-name">Arm Chair</h3>
+
+                    <span class="cart-item-category">Chair</span>
+                    <span class="cart-item-price">$120.00</span>
+                  </div>
+                  <button type="button" class="cart-item-del-btn">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="cart-total">
+                <h3>Total:$</h3>
+                <span id="cart-total-value">$120.0</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- end navbar -->
+        <div class="banner">
+          <div class="banner-content">
+            <h1>Furniture for your more</h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. quos
+              eveniet, quis nisi recusande assumande ea sequi obcaecati
+              accusantium in provident dolore debites autem naquer vel commodi
+              atque voluptates Exercitationcem,fugit sed!
+            </p>
+            <div class="btns">
+              <button type="button" class="btn">know more</button>
+              <button type="button" class="btn">know info</button>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="./image/banner-image.avif" alt="furniture banner image" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="products">
+      <div class="container">
+        <h2>Our products</h2>
+        <div class="product-list">
+          <div class="product-item">
+            <div class="product-img">
+              <img src="./image/bed.avif" alt="product image" />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fa-solid fa-cart-shopping">Add to Cart</i>
+              </button>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name">wooden bed</h3>
+              <span class="product-category">Bed</span>
+              <p class="product-price">$120.00</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-img">
+              <img src="./image/bed.avif" alt="product image" />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fa-solid fa-cart-shopping">Add to Cart</i>
+              </button>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name">wooden bed</h3>
+              <span class="product-category">Bed</span>
+              <p class="product-price">$120.00</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-img">
+              <img src="./image/bed.avif" alt="product image" />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fa-solid fa-cart-shopping">Add to Cart</i>
+              </button>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name">wooden bed</h3>
+              <span class="product-category">Bed</span>
+              <p class="product-price">$120.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./cart-website.js"></script>
+  </body>
+</html>
