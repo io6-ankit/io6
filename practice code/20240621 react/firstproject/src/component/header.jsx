@@ -27,19 +27,17 @@ const Header = () => {
           <GiHamburgerMenu className="header-icons" />
 
           <IoLogoYoutube className="header-icons" color="red" />
-          <h2>Youtube</h2>
+          <h3 className="paragraph">Youtube</h3>
         </div>
         <div className="header-input">
           <div className="header-middle">
             <input className="SearchInput" placeholder="search" type="text" />
 
             <button className="header-searchBtn">
-              {" "}
               <IoIosSearch />
             </button>
+            <FaMicrophone className="header-icons" />
           </div>
-
-          <FaMicrophone className="header-icons" />
         </div>
         <div className="header-right">
           <FaVideoSlash className="header-icons" />

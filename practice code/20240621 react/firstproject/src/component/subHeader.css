@@ -1,0 +1,9 @@
+.mainclass {
+  height: 40px;
+  width: 1350px;
+  border: 1px solid black;
+  margin-left: 40px;
+}
+.button {
+  margin-left: 30px;
+}
