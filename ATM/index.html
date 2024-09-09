@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>ATM</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <header class="header">
+          <span class="bank-name">Bank of Baroda</span>
+          <img
+            class="logo"
+            src="bank of baroda image.png"
+            alt="bank of baroda"
+          />
+
+          <!-- <span>time</span> -->
+        </header>
+
+        <div class="error-message display-none"></div>
+        <div class="success-message display-none">this is success mesg</div>
+
+        <!-- ---- Main screen section--- -->
+        <div class="main-screen">
+          <span class="bank-name">Welcome to Bank of Baroda </span>
+          <div class="check-pin">
+            <input
+              type="number"
+              maxlength="6"
+              minlength="6"
+              value=""
+              class="pin main-screen-acc-no"
+              id="main-screen-acc-no"
+              placeholder="Enter Account number"
+            />
+            <input
+              type="number"
+              maxlength="4"
+              minlength="4"
+              value=""
+              class="pin"
+              id="main-screen-pin"
+              placeholder="Enter pin"
+            />
+          </div>
+
+          <div class="pin-btn-container">
+            <input
+              type="submit"
+              value="Enter"
+              class="pin-btn"
+              id="got-main-menu-btn"
+              onclick="goToMainScreen()"
+            />
+          </div>
+        </div>
+
+        <!--  ___Services _______----->
+        <div class="btn-container main-section display-none">
+          <p class="user-name"></p>
+          <h1 class="title">Please select a service</h1>
+          <button class="btn" id="withdraw" onclick="handleWithdraw()">
+            Withdraw
+          </button>
+          <button class="btn" id="deposit" onclick="handleDeposit()">
+            Deposit
+          </button>
+          <button class="btn" id="transfer" onclick="handleTransfer()">
+            Transfer
+          </button>
+          <button class="btn" id="enquiry" onclick="handleBalEnq()">
+            Balance Enquiry
+          </button>
+          <button class="btn" id="change-pin" onclick="handleChangePin()">
+            Change Pin
+          </button>
+          <button class="btn exit" id="exit" onclick="handleExitBtn()">
+            Exit
+          </button>
+          <!-- <button class="btn back" id="back" onclick="handleBackBtn()">
+            Back
+          </button> -->
+        </div>
+
+        <!-- ---- change pin section--- -->
+        <div class="pin-section display-none">
+          <span class="bank-name">Change Pin</span>
+          <div class="check-pin">
+            <input
+              type="number"
+              maxlength="4"
+              minlength="4"
+              value=""
+              class="pin old-pin"
+              id="old-pin"
+              placeholder="Enter old pin"
+            />
+            <button id="match-old-pin" onclick="matchPins()">Match Pin</button>
+          </div>
+          <input
+            type="number"
+            maxlength="4"
+            minlength="4"
+            value=""
+            class="pin new-pin display-none"
+            id="new-pin"
+            placeholder="Enter new pin"
+            onkeydown="handleEnterNewPin()"
+          />
+          <div class="pin-btn-container">
+            <input
+              type="submit"
+              value="Change Pin"
+              class="pin-btn"
+              id="change-pin-btn"
+              onclick="changePins()"
+            />
+            <input
+              type="submit"
+              value="Back"
+              class="pin-btn"
+              id="got-main-menu-btn"
+              onclick="goToServicesScreen()"
+            />
+            <button
+              class="btn exit pin-btn"
+              id="exit"
+              onclick="handleExitBtn()"
+            >
+              Exit
+            </button>
+          </div>
+        </div>
+
+        <!-- ---- Withdraw section--- -->
+        <div class="withdraw-section display-none">
+          <span class="bank-name">Withdraw</span>
+
+          <input
+            type="number"
+            value=""
+            class="pin wd-amount"
+            id="wd-amount"
+            placeholder="Enter your amount"
+          />
+
+          <div class="withdraw-btn-section">
+            <input
+              type="submit"
+              value="Withdraw"
+              class="withdraw-btn"
+              id="withdraw-btn"
+              onclick="withdraw()"
+            />
+
+            <input
+              type="submit"
+              value="Back"
+              class="pin-btn"
+              id="got-main-menu-btn"
+              onclick="goToServicesScreen()"
+            />
+            <button
+              class="withdraw-btn exit"
+              id="exit"
+              onclick="handleExitBtn()"
+            >
+              Exit
+            </button>
+          </div>
+        </div>
+
+        <!-- ---- deposit section--- -->
+        <div class="deposit-section display-none">
+          <span class="bank-name">Deposit</span>
+
+          <input
+            type="number"
+            value=""
+            class="pin deposit-amount"
+            id="deposit-amount"
+            placeholder="Enter your amount"
+          />
+
+          <div class="deposit-btn-section">
+            <input
+              type="submit"
+              value="deposit"
+              class="deposit-btn"
+              id="deposit-btn"
+              onclick="deposit()"
+            />
+
+            <input
+              type="submit"
+              value="Back"
+              class="pin-btn"
+              id="got-main-menu-btn"
+              onclick="goToServicesScreen()"
+            />
+            <button
+              class="withdraw-btn exit"
+              id="exit"
+              onclick="handleExitBtn()"
+            >
+              Exit
+            </button>
+          </div>
+        </div>
+
+        <!-- ---- balance section--- -->
+        <div class="balance-section display-none">
+          <span class="bank-name">Balance Enquiry</span>
+
+          <h1>Your current balance is : <span class="balance"></span></h1>
+          <div class="d-flex">
+            <input
+              type="submit"
+              value="Back"
+              class="pin-btn"
+              id="got-main-menu-btn"
+              onclick="goToServicesScreen()"
+            />
+            <button class="pin-btn exit" id="exit" onclick="handleExitBtn()">
+              Exit
+            </button>
+          </div>
+        </div>
+
+        <!-- ---- transfer section--- -->
+        <div class="transfer-section display-none">
+          <span class="bank-name">Transfer</span>
+
+          <div>
+            <input
+              type="number"
+              value=""
+              class="pin payee-account"
+              id="payee-account"
+              placeholder="Enter Payee Account number"
+            />
+
+            <input
+              type="number"
+              value=""
+              class="pin transfer-amount"
+              id="transfer-amount"
+              placeholder="Enter Amount to transfer"
+            />
+          </div>
+          <div class="d-flex">
+            <input
+              type="submit"
+              value="Transfer"
+              class="pin-btn"
+              id="got-main-menu-btn"
+              onclick="transfer()"
+            />
+            <input
+              type="submit"
+              value="Back"
+              class="pin-btn"
+              id="got-main-menu-btn"
+              onclick="goToServicesScreen()"
+            />
+            <button class="pin-btn exit" id="exit" onclick="handleExitBtn()">
+              Exit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./atm.js"></script>
+  </body>
+</html>

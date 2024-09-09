@@ -1,0 +1,1024 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.main-parent {
+  height: 6150px;
+  width: 100%;
+  /* border: 5px solid rgb(13, 151, 57); */
+}
+.new {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  border-radius: 50px;
+  left: 42.5%;
+  color: white;
+  background-color: red;
+}
+.parent {
+  height: 80px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.nav-container {
+  height: 80px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: rgb(15, 60, 201);
+}
+.nav-container-1 {
+  height: 80px;
+  width: 60%;
+  /* border: 1px solid black; */
+  display: flex;
+  background-color: rgb(15, 60, 201);
+}
+.nav-container-2 {
+  height: 80px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: rgb(15, 60, 201);
+}
+.image {
+  height: 50px;
+  width: 50px;
+
+  position: absolute;
+  left: 245px;
+  top: 10px;
+}
+.image-A {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  position: absolute;
+  left: 80%;
+  border-radius: 50px;
+  top: 15px;
+}
+.image-B {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+
+  position: absolute;
+
+  left: 84%;
+  top: 15px;
+  border-radius: 50px;
+}
+/* left: 245px; */
+/* top: 10px; */
+
+#index {
+  margin: 20px;
+}
+.parent-1 {
+  height: 60px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.nav-container-3 {
+  height: 60px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: rgb(10, 40, 133);
+}
+.nav-container-4 {
+  height: 60px;
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  background-color: rgb(10, 40, 133);
+}
+.index-1 {
+  margin: 20px;
+}
+.parent-2 {
+  height: 550px;
+  width: 100%;
+  /* border: 1px solid black; */
+
+  /* background-image: url("low-battery-concept-illustration_114360-6991.jpg"); */
+  /* background-size: cover; */
+  /* width: 34px; */
+  /* height: 1px; */
+}
+.image-1 {
+  height: 549px;
+  width: 100%;
+}
+.word {
+  position: absolute;
+  font-size: 67px;
+  left: 184px;
+  /* color: rgb(182, 177, 130); */
+  color: white;
+  top: 209px;
+}
+.word-1 {
+  position: absolute;
+  color: white;
+  top: 440px;
+  left: 181px;
+}
+#button {
+  height: 29px;
+  width: 134px;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 255);
+  color: white;
+}
+.parent-3 {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 34px;
+  border-radius: 20px;
+}
+.parent-3 {
+  height: 400px;
+  width: 80%;
+  /* border: 1px solid rgb(175, 35, 35); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  background-color: blue;
+}
+.image-2 {
+  height: 300px;
+  width: 40%;
+  margin-left: 896px;
+}
+.word-2 {
+  position: absolute;
+  left: 300px;
+  font-size: 63px;
+  color: white;
+}
+.button-1 {
+  height: 50px;
+  width: 123px;
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+}
+.parent-4 {
+  height: 150px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.word-3 {
+  position: absolute;
+
+  margin-top: 20px;
+
+  left: 25%;
+  /* top: 2%; */
+  top: 1134px;
+  font-size: 63px;
+}
+.parent-5 {
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.nav-container-5 {
+  height: 200px;
+  width: 30%;
+  /* border: 1px solid black; */
+}
+/*  */
+.jio-5G {
+}
+.india {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 60%;
+}
+.india-1 {
+  height: 50px;
+  width: 190px;
+  position: absolute;
+  left: 56%;
+  margin-top: 70px;
+}
+.jio-5 {
+  position: absolute;
+  color: white;
+  background-color: blue;
+  left: 126px;
+  border-radius: 50px;
+}
+.jio-5-1 {
+  position: absolute;
+
+  /* position: absolute; */
+  /* top: 309%; */
+  left: 128px;
+  top: 180%;
+  /* left: 128px; */
+}
+.latency {
+  margin-top: 75px;
+  margin-left: 69px;
+}
+.massege {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 35%;
+}
+.massege-1 {
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  left: 34%;
+  margin-top: 70px;
+}
+.jio {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 85%;
+}
+.jio-1 {
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  left: 85%;
+  margin-top: 70px;
+}
+.free {
+  margin-top: 105px;
+  margin-left: 106px;
+}
+
+.faster {
+  margin-top: 100px;
+  margin-left: 69px;
+}
+.unlimited {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.order {
+  position: absolute;
+
+  left: 316px;
+  top: 240%;
+}
+.button-2 {
+  height: 50px;
+  width: 123px;
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.button-3 {
+  height: 50px;
+  width: 123px;
+  border-radius: 50px;
+  background-color: rgb(231, 235, 248);
+  color: rgb(25, 23, 23);
+  border: 1px solid white;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.parent-6 {
+  height: 400px;
+  width: 80%;
+  /* border: 1px solid rgb(175, 35, 35); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  background-color: rgb(231, 235, 248);
+  border-radius: 20px;
+}
+.word-A {
+  position: absolute;
+  left: 300px;
+  font-size: 63px;
+  color: black;
+}
+.image-a {
+  height: 300px;
+  width: 40%;
+  margin-left: 840px;
+}
+.mobile-plane {
+  height: 800px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 60px;
+  background-color: rgb(231, 235, 248);
+}
+.plane {
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: rgb(231, 235, 248);
+}
+.popular {
+  position: absolute;
+
+  font-size: 67px;
+  left: 460px;
+}
+.choose {
+  margin-left: 500px;
+}
+.recharge {
+  height: 335px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.POstpaid {
+  height: 50px;
+  width: 15%;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  margin-left: 600px;
+  background-color: white;
+}
+.prepaid {
+  height: 50px;
+  width: 40%;
+  border-radius: 50px;
+  background-color: rgb(15, 60, 201);
+  color: white;
+}
+.postpaid-A {
+  height: 50px;
+  width: 40%;
+  border-radius: 50px;
+  margin-left: 40.5px;
+}
+.recharge {
+  display: flex;
+  background-color: rgb(231, 235, 248);
+}
+.trending {
+  height: 335px;
+  width: 25%;
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 12%;
+}
+.trending-A {
+  /* border: 1px solid black; */
+  width: 90px;
+
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.Rs {
+  margin-left: 15px;
+}
+.youtube {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 50px;
+
+  margin-left: 15px;
+}
+.jio-cinema {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.extra-data {
+  height: 335px;
+  width: 25%;
+  /* border: 1px solid black; */
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+.extra-data-A {
+  /* border: 1px solid black; */
+  width: 270px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.amazon {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+
+  margin-left: 15px;
+}
+.hotstar {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.horizental {
+  margin: 10px;
+}
+.online {
+  height: 335px;
+  width: 25%;
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 20px;
+}
+.online-A {
+  /* border: 1px solid black; */
+  width: 180px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+
+  margin-left: 15px;
+}
+.cinema {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.more {
+  position: absolute;
+
+  margin-top: 13px;
+  margin-left: 10px;
+}
+#Validity {
+  position: absolute;
+
+  margin-left: 20px;
+}
+#data {
+  position: absolute;
+
+  margin-left: 243px;
+  margin-top: -1px;
+}
+#child {
+  position: absolute;
+  height: 45px;
+  width: 104px;
+  border-radius: 50px;
+  left: 66%;
+  margin-top: 88px;
+  background-color: rgb(15, 60, 201);
+  color: white;
+}
+#child-1 {
+  position: absolute;
+  height: 45px;
+  width: 104px;
+  border-radius: 50px;
+  left: 79%;
+  margin-top: 88px;
+}
+#child-2 {
+  position: absolute;
+  height: 45px;
+  width: 104px;
+  border-radius: 50px;
+  left: 54%;
+  margin-top: 88px;
+}
+#child-3 {
+  position: absolute;
+  height: 45px;
+  width: 104px;
+  border-radius: 50px;
+  left: 41%;
+  margin-top: 86px;
+  background-color: rgb(15, 60, 201);
+  color: white;
+}
+#child-4 {
+  position: absolute;
+  height: 45px;
+  width: 104px;
+  border-radius: 50px;
+  left: 16%;
+  margin-top: 86px;
+  background-color: rgb(15, 60, 201);
+  color: white;
+}
+#child-5 {
+  position: absolute;
+  height: 45px;
+  width: 104px;
+  border-radius: 50px;
+  left: 28%;
+  margin-top: 88px;
+}
+#prepaid {
+  height: 50px;
+  width: 174px;
+  position: absolute;
+
+  margin-top: 60px;
+  left: 46%;
+  border-radius: 50px;
+}
+.trending-1 {
+  position: absolute;
+
+  font-size: 80px;
+  left: 34%;
+  margin-top: 50px;
+}
+.latest {
+  position: absolute;
+  margin-top: 150px;
+  left: 36%;
+  font-size: 21px;
+}
+.parent-7 {
+  height: 511px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#first-id {
+  height: 511px;
+  width: 25.7%;
+  /* border: 1px solid black; */
+  margin-right: 80px;
+  position: relative;
+  border-radius: 20px;
+  background: rgb(15, 60, 201);
+}
+
+.photo {
+  height: 261px;
+  width: 100%;
+  /* border: 1px solid black; */
+  /* z-index: 3; */
+  position: absolute;
+  top: 249px;
+  /* background-color: red; */
+  top: 0;
+}
+.headline {
+  height: 66px;
+  position: absolute;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: rgb(15, 60, 201);
+  top: 249px;
+
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+
+  /* z-index: 2; */
+}
+#second-id {
+  height: 511px;
+  width: 25.6%;
+  /* border: 1px solid black; */
+  position: relative;
+  border-radius: 20px;
+  background: rgb(15, 60, 201);
+}
+#third-id {
+  height: 511px;
+  width: 25.7%;
+  /* border: 1px solid black; */
+  margin-left: 80px;
+  position: relative;
+  border-radius: 20px;
+  background: rgb(15, 60, 201);
+}
+.abroad {
+  position: absolute;
+  top: 61%;
+  color: white;
+  left: 30px;
+  font-size: 35px;
+}
+.travel {
+  position: absolute;
+  top: 81%;
+  color: white;
+  left: 20px;
+}
+#roaming {
+  height: 35px;
+  width: 288px;
+  border-radius: 50px;
+}
+#roaming-1 {
+  height: 35px;
+  width: 100px;
+  border-radius: 50px;
+}
+#src {
+  border-radius: 20px;
+}
+.parent-8 {
+  height: 630px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 81px;
+  background-color: rgb(245, 245, 245);
+}
+#all {
+  font-size: 70px;
+  left: 495px;
+  position: absolute;
+  /* margin-top: 20px; */
+}
+#might {
+  position: absolute;
+
+  margin-top: 73px;
+  left: 556px;
+}
+.less {
+  height: 417px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px; */
+}
+#eSIM {
+  height: 417px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: rgb(231, 235, 248);
+  border-radius: 20px;
+  margin-right: 50px;
+}
+#eSIM-1 {
+  height: 417px;
+  width: 20%;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  background-color: rgb(231, 235, 248);
+}
+#eSIM-2 {
+  height: 417px;
+  width: 20%;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  margin-left: 50px;
+  background-color: rgb(231, 235, 248);
+}
+#children {
+  height: 209px;
+  width: 100%;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
+#children-1 {
+  height: 208px;
+  width: 100%;
+  /* border: 1px solid black; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgb(231, 235, 248);
+}
+#businesswoman {
+  height: 207px;
+  width: 300px;
+  border-radius: 20px;
+}
+#office-girl {
+  height: 207px;
+  width: 100%;
+  border-radius: 20px;
+}
+#office-man {
+  height: 207px;
+  width: 100%;
+  border-radius: 20px;
+}
+#H {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+#h {
+  margin-left: 10px;
+  color: rgb(89, 89, 89);
+}
+#Z {
+  color: rgb(11, 11, 199);
+  margin-left: 40px;
+}
+.parent-9 {
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: rgb(245, 245, 245);
+}
+#child-6 {
+  font-size: 70px;
+  margin-top: 15px;
+  margin-left: 28%;
+}
+#child-7 {
+  margin-left: 32%;
+}
+.parent-10 {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+}
+.child-8 {
+  height: 375px;
+  width: 25%;
+  /* border: 1px solid black; */
+  background-color: white;
+  margin-right: 60px;
+  border-radius: 20px;
+  /* position: absolute; */
+  /* margin-top: 10px; */
+  /* margin-left: 20px; */
+}
+#₹1500 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.child-9 {
+  height: 375px;
+  background-color: white;
+  width: 25%;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
+.child-10 {
+  height: 375px;
+  background-color: white;
+  border-radius: 20px;
+  width: 25%;
+  /* border: 1px solid black; */
+  margin-left: 60px;
+  /* background-color: red; */
+}
+.image-3 {
+  /* height: 250px; */
+  margin-top: 85px;
+  /* margin-left: 30px; */
+
+  width: 362px;
+}
+#bharat {
+  position: absolute;
+  margin-left: 30px;
+}
+#p {
+  position: absolute;
+  margin-left: 30px;
+}
+.image-4 {
+  /* position: absolute; */
+  margin-top: 65px;
+  height: 210px;
+  /* left: 43%; */
+}
+.image-5 {
+  height: 210px;
+  margin-left: 85px;
+  /* position: absolute; */
+  margin-top: 72px;
+}
+.parent-11 {
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+}
+#shopping {
+  height: 40px;
+  width: 150px;
+  margin-left: 40%;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.parent-12 {
+  height: 500px;
+  width: 80%;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 150px;
+  background-color: rgb(231, 235, 248);
+  border-radius: 20px;
+}
+#bouquet {
+  font-size: 85px;
+  /* position: absolute; */
+  margin-top: 50px;
+  margin-left: 30px;
+  /* left: 177px; */
+}
+#all-jio-apps {
+  height: 38px;
+  width: 148px;
+  margin-left: 30px;
+  margin-top: 80px;
+  border-radius: 50px;
+  color: white;
+  background-color: blue;
+}
+#possibilities {
+  margin-left: 30px;
+}
+#image-6 {
+  height: 478px;
+  margin-top: 10px;
+  width: 50%;
+  position: absolute;
+  left: 39.5%;
+}
+.parent-13 {
+  height: 350px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  background-color: blue;
+}
+
+#possibilities-1 {
+  font-size: 100px;
+  color: white;
+  margin-left: 399px;
+  margin-top: 30px;
+}
+#find-a-store {
+  font-size: 25px;
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 10%;
+}
+#call-us {
+  font-size: 25px;
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 10%;
+}
+#Support {
+  font-size: 25px;
+  margin-right: 20px;
+  border-radius: 50px;
+  width: 10%;
+}
+#help-you {
+  font-size: 40px;
+  margin-left: 546px;
+  color: white;
+}
+#chat {
+  font-size: 25px;
+  border-radius: 50px;
+  width: 10%;
+}
+#single-line {
+  margin-left: 483px;
+}
+.parent-14 {
+  height: 800px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+#nun {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+}
+#Our-offerings {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#Support-1 {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#Our-company {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#Useful-links {
+  height: 800px;
+  width: 15%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#download {
+  height: 800px;
+  width: 21%;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+}
+#link-1 {
+  color: rgb(86, 86, 86);
+}
+#link-2 {
+  color: rgb(86, 86, 86);
+}
+#link-3 {
+  color: rgb(86, 86, 86);
+}
+#png {
+  height: 30px;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  margin-left: 25px;
+}
+#badge {
+  height: 60px;
+}
+#badge-1 {
+  height: 40px;
+
+  position: absolute;
+  margin-top: 11px;
+}
+.parent-15 {
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid black;
+  display: flex;
+}
+#children-2 {
+  height: 80px;
+  width: 10%;
+  /* border: 1px solid black; */
+}
+#children-3 {
+  height: 80px;
+  width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+#children-6 {
+  height: 80px;
+  width: 20%;
+  /* border: 1px solid black; */
+}
+#children-5 {
+  height: 50px;
+  width: 29%;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+#site {
+  color: rgb(26, 11, 167);
+  margin: 10px;
+}
+#jio-logo {
+  height: 50px;
+}
+#Copyright-1 {
+  position: absolute;
+
+  margin-top: 15px;
+  left: 211px;
+}
