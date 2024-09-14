@@ -2,6 +2,17 @@
   margin: 0;
   padding: 0;
 }
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 33%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
 
 .image {
   height: 50px;
@@ -15,9 +26,10 @@
   background-color: black;
 }
 .rightNav {
-  justify-content: center;
+  text-align: right;
+  /* justify-content: center; */
   /* background-color: rgb(9, 9, 9); */
-  height: 50px;
+  /* height: 50px; */
   width: 50%;
 }
 .btn {
@@ -42,8 +54,15 @@ a {
   width: 50%;
   height: 50px;
 }
-nav-list li {
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
 }
-nav-list li a {
+.nav-list li a:hover {
+  color: gray;
+  /* text-decoration: none; */
+}
+.nav-list li a {
   color: white;
+  text-decoration: none;
 }
