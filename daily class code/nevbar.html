@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>nevbar</title>
-    <link rel="stylesheet" href="nevbar.css" />
+    <title>Next Even Numbers</title>
   </head>
   <body>
-    <nav class="nav container">
-      <div class="title-container"></div>
-      <div class="search-container"></div>
-      <div class="action-container"></div>
-    </nav>
+    <input type="number" id="inputNumber" placeholder="Enter an even number" />
+    <button onclick="findNextEvenNumbers()">Find</button>
+    <ul id="result"></ul>
+
+    <script>
+      function findNextEvenNumbers() {
+        const inputNumber = parseInt(
+          document.getElementById("inputNumber").value
+        );
+        const resultElement = document.getElementById("result");
+
+        if (isNaN(inputNumber) || inputNumber % 2 !== 0) {
+          resultElement.innerHTML = ""; // Clear previous results
+          return;
+        }
+
+        resultElement.innerHTML = ""; // Clear previous results
+        for (let i = 1; i <= 3; i++) {
+          const nextEven = inputNumber + 2 * i;
+          const listItem = document.createElement("li");
+          listItem.textContent = nextEven;
+          resultElement.appendChild(listItem);
+        }
+      }
+    </script>
   </body>
 </html>
