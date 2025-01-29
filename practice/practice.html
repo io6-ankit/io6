@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Sequence</title>
+  </head>
+  <body>
+    <div style="margin: 190px 40px 40px 540px">
+      <h3>Check the Number Sequence</h3>
+      <input type="number" id="numberInput" oninput="generateSequence()" />
+
+      <p id="result"></p>
+    </div>
+    <script>
+      function generateSequence() {
+        const inputNumber = parseInt(
+          document.getElementById("numberInput").value
+        );
+
+        if (inputNumber < 0) {
+          document.getElementById("result").innerHTML =
+            "Enter a positive value.";
+        } else if (inputNumber % 2 === 0) {
+          // Even number
+          const nextEvenNumbers = [];
+          for (let i = inputNumber + 2; i <= inputNumber + 6; i += 2) {
+            nextEvenNumbers.push(i);
+          }
+          document.getElementById(
+            "result"
+          ).innerHTML = ` ${nextEvenNumbers.join(", ")}`;
+        } else {
+          // Odd number
+          const nextOddNumbers = [];
+          for (let i = inputNumber + 2; i <= inputNumber + 6; i += 2) {
+            nextOddNumbers.push(i);
+          }
+          document.getElementById("result").innerHTML = ` ${nextOddNumbers.join(
+            ", "
+          )}`;
+        }
+      }
+    </script>
+  </body>
+</html>
