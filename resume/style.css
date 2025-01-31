@@ -1,6 +1,6 @@
 .main {
-  height: 150vh;
-  width: 50%;
+  height: 180vh;
+  width: 100%;
   border: 1px solid black;
   margin: auto;
 }
@@ -8,6 +8,22 @@
   width: 90%;
   /* rotate: 90deg; */
 }
+.horizontale-row-1 {
+  rotate: 90deg;
+  width: 15%;
+}
 .skill {
   display: flex;
+  justify-content: space-around;
+}
+.project-all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  color: rgb(180, 142, 95);
+}
+button {
+  margin-left: 50%;
 }
